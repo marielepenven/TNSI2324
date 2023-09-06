@@ -94,7 +94,7 @@ Une classe est une description d'un ensemble d'objets ayant une structure de don
 
 On peut représenter graphiquement une classe de la manière suivante :
 
-![](\IMG\classes_cours.png)
+![](/IMG/classes_cours.png)
 
 ## III. Les Classes en Python. 
 
