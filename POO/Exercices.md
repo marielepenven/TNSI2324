@@ -51,7 +51,30 @@ On considère que les adresses IP saisies sont valides.
 Les adresses IP 192.168.0.0 et 192.168.0.255 sont des adresses réservées. 
 
 Le code ci-dessous implémente la classe AdresseIP. 
-
+```python
+class AdresseIP():
+    def __init__(self, adresse):
+        self.adresse = ...........
+        
+    def liste_octet(self):
+        '''renvoie une liste de nombre entiers,
+        la liste des octets de l'adresse IP'''
+        return [int(i) for i in self.adresse.split(".")]
+    
+    def est_reservee(self):
+        ''' renvoie True si l'adresse IP est une adresse réservée,
+        False sinon'''
+        return ...... or .......
+    
+    def adresse_suivante(self):
+        ''' renvoie un objet de AdresseIP avec l'adresse IP qui suit l'adresse self
+        si elle existe, et False sinon '''
+        if ..... <254:
+            octet_nouveau = .... + .....
+            return AdresseIP('192.168.0.'+ ....)
+        else:
+            return False
+```
 
 
 Vous trouverez le code dans le fichier adresseIP.py
