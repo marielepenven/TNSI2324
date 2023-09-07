@@ -5,7 +5,8 @@
 #### Exercice 1 : 
 
 1. Écrire une fonction récursive `nb_diviseurs(j,n)` qui renvoie le nombre d'entiers entre 1 et j qui divise n.
-2. Ecrire une fonction `est_parfait(n)` qui renvoie `True` si la somme des diviseurs de $n$ est égale à $2n$ : les entiers parfaits entre 1 et 30 sont 6 et 28 .  
+2. Ecrire une fonction `est_parfait(n)` qui renvoie `True` si la somme des diviseurs de $n$ est égale à $2n$.
+   Remarque: Les entiers parfaits entre 1 et 30 sont 6 et 28 .  
 
 
 
@@ -46,7 +47,7 @@ Par exemple, `pgcd(84,60)=5`
 
 1. En partant du coin supérieur gauche, dessinez sur une feuille la figure suivante sans lever le stylo et sans repasser deux fois sur le même trait :
 
-![img](\recursive\IMG\trace.jpg)
+![img](\Récursive\IMG\trace.jpg)
 
 2. Écrire une fonction récursive à deux paramètres (la longueur du plus grand carré, le nombre de carrés imbriqués) permettant de réaliser ce dessin avec le module turtle [](https://docs.python.org/fr/3/library/turtle.html)
 
