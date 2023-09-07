@@ -138,7 +138,7 @@ Remarques:
 
 ### b. Instanciation de l'objet. 
 
-![](F:\lycee\T NSI\POO\instanciationmoncompte.jpg)
+![](/POO/img/instanciationmoncompte.jpg)
 
 
 
@@ -185,4 +185,4 @@ def get_nom(self):
 - Pour faire appel aux méthodes, on écrira : 
   `instance.methode(argument)`
 
-![](F:\lycee\T NSI\POO\utilisation methdeo.jpg)
+![](/POO/img/utilisation methdeo.jpg)
