@@ -59,7 +59,7 @@ L'objectif de cet exercice est de  dessiner le flocon de Von Koch avec le module
 
 1. Ecrire une fonction récursive qui permet de dessiner le fractal de Kosh ci-dessous. 
 
-![](E:\lycee\T NSI\recursivité\fractal de von koch.jpg)
+![](/LaReccursivite/img/Fractaldevonkoch.jpg)
 
 
 
@@ -67,4 +67,4 @@ L'objectif de cet exercice est de  dessiner le flocon de Von Koch avec le module
 
 2. Ecrire une fonction (non récursive) utilisant la fonction de Kosh qui permet de dessiner le flocon de Kosh ci-dessous. Sont dessinés ci-dessous les flocons d'ordre 0, 1, 2 et 3. Cette fonction aura comme arguments la longueur du segment et l'ordre : `flocon(1,n)`
 
-![img](https://kxs.fr/cours/recursivite/img/flocon.jpg)
+![img](/LaReccursivite/img/Flocondevonkoch.jpg)
