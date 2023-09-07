@@ -51,6 +51,7 @@ On considère que les adresses IP saisies sont valides.
 Les adresses IP 192.168.0.0 et 192.168.0.255 sont des adresses réservées. 
 
 Le code ci-dessous implémente la classe AdresseIP. 
+
 ```python
 class AdresseIP():
     def __init__(self, adresse):
