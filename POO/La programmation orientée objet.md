@@ -138,7 +138,7 @@ Remarques:
 
 ### b. Instanciation de l'objet. 
 ![](/POO/img/instanciationmoncompte.jpg)
-![](/POO/img/instanciationmoncompte.jpg)
+
 
 
 
@@ -185,4 +185,4 @@ def get_nom(self):
 - Pour faire appel aux méthodes, on écrira : 
   `instance.methode(argument)`
 
-![](/POO/img/utilisation methdeo.jpg)
+![](/POO/img/utilisationmethdeo.jpg)
