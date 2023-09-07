@@ -138,7 +138,7 @@ Remarques:
 
 ### b. Instanciation de l'objet. 
 
-![](/POO/img/instanciationmoncompte.jpg)
+![](/POO/img/instanciation moncompte.jpg)
 
 
 
