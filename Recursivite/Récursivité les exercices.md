@@ -5,6 +5,7 @@
 #### Exercice 1 : 
 
 1. Écrire une fonction récursive `nb_diviseurs(j,n)` qui renvoie le nombre d'entiers entre 1 et j qui divise n.
+   
 2. Ecrire une fonction `est_parfait(n)` qui renvoie `True` si la somme des diviseurs de $n$ est égale à $2n$.
    Remarque: Les entiers parfaits entre 1 et 30 sont 6 et 28 .  
 
@@ -47,7 +48,7 @@ Par exemple, `pgcd(84,60)=5`
 
 1. En partant du coin supérieur gauche, dessinez sur une feuille la figure suivante sans lever le stylo et sans repasser deux fois sur le même trait :
 
-![img](\Récursive\IMG\trace.jpg)
+![img](/Récursive/IMG/trace.jpg)
 
 2. Écrire une fonction récursive à deux paramètres (la longueur du plus grand carré, le nombre de carrés imbriqués) permettant de réaliser ce dessin avec le module turtle [](https://docs.python.org/fr/3/library/turtle.html)
 
@@ -59,7 +60,7 @@ L'objectif de cet exercice est de  dessiner le flocon de Von Koch avec le module
 
 1. Ecrire une fonction récursive qui permet de dessiner le fractal de Kosh ci-dessous. 
 
-![](\Récursive\IMG\fractaldevonkoch.jpg)
+![](/Récursive/IMG/fractaldevonkoch.jpg)
 
 
 
@@ -67,4 +68,4 @@ L'objectif de cet exercice est de  dessiner le flocon de Von Koch avec le module
 
 2. Ecrire une fonction (non récursive) utilisant la fonction de Kosh qui permet de dessiner le flocon de Kosh ci-dessous. Sont dessinés ci-dessous les flocons d'ordre 0, 1, 2 et 3. Cette fonction aura comme arguments la longueur du segment et l'ordre : `flocon(1,n)`
 
-![img](\Récursive\IMG\flocondevonkoch.jpg)
+![img](/Récursive/IMG/flocondevonkoch.jpg)
