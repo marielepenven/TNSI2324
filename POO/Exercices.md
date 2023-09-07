@@ -36,7 +36,7 @@ Implémenter le type abstrait Point de trois façons différentes :
 
 Exemples d'utilisation de cette classe :
 
-![](F:\lycee\T NSI\POO\utilisation voiture.jpg)
+![](/POO/img/utilisationvoiture.jpg)
 
 
 
