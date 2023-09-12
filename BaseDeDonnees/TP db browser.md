@@ -11,7 +11,7 @@ Ce TP se réalisera avec  DB Browser for SQLite (outil graphique)
 
 
 ## I. Préparation
-- Téléchargez la base de données cinema_v1.sqlite fournie via l'ent. 
+- Téléchargez la base de données cinema_v1.sqlite.
 
 - Ouvrir cette base de données avec le logiciel __DB Browser for SQLite__.
   Ce logiciel va vous permettre de gérer cette base de données au travers de 3 onglets :
