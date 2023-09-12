@@ -259,10 +259,3 @@ On envisage ensuite d'optimiser la table en se contentant d'une seule ligne par 
 
 
 
-### Exercice 8 (bac): Gestion d’un club de handball
-
-Un club de handball souhaite regrouper efficacement toutes ses informations. Il utilise  pour cela des bases de données relationnelles afin d'avoir accès aux informations classiques sur les licenciés du club ainsi que sur les matchs du championnat. Le  langage SQL a été retenu.  
-
-On suppose dans l’exercice que tous les joueurs d’une équipe jouent à chaque  match de l’équipe.
-
- La structure de la base de données est composée des deux tables (ou relations)  suivantes: 
