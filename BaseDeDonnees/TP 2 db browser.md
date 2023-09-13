@@ -41,7 +41,7 @@ Kobe)
 R07 - Supprimez le réalisateur “Johnny BEGOOD” ajouté précédemment ?  
 R08 - Supprimez le cinéma “Mon salon” ajouté précédemment ?  
 
-## II. Modification, insertion et suppression sous contrainte
+## III. Modification, insertion et suppression sous contrainte
 
 
 
@@ -55,12 +55,12 @@ est liée à une contrainte d’intégrité, précisez laquelle.
 
 |Requête SQL |Problème|
 |:---:|:---:|
-|![](r1.png)||
-|![](r2.png)||
-|![](r3.png)||
-|![](r4.png)||
-|![](r5.png)||
-|![](r6.png)||
+|![](/BaseDeDonnees/IMG/r1.png)||
+|![](/BaseDeDonnees/IMG/r2.png)||
+|![](/BaseDeDonnees/IMG/r3.png)||
+|![](/BaseDeDonnees/IMG/r4.png)||
+|![](/BaseDeDonnees/IMG/r5.png)||
+|![](/BaseDeDonnees/IMG/r6.png)||
 
 ## III. Interrogation sur une table  
 
