@@ -25,7 +25,8 @@ Ce TP se réalisera avec  DB Browser for SQLite (outil graphique)
      
 
 ## II. Schéma relationnel  
-Voici le schéma relationnel de la base de données: ![base de donnees cinéma](D:\DISQUE ESSB\lycee\T NSI\base de données\bdd_cine_1_annote.png)
+Voici le schéma relationnel de la base de données:
+![base de donnees cinéma](/BaseDeDonnees/IMG/bdd_cine_1_annote.png)
 
 a. Reconnaître et nommer les éléments du schéma relationnel : 
 
@@ -99,7 +100,7 @@ la table “Jouer” ? Quelle critique pourrait-on faire à ce choix ?
 
 
 d.  Finalement on décide d’ajouter “role” à “idActeur” et “idFilm” pour constituer la clef primaire de la relation  
-![jouer](D:\DISQUE ESSB\lycee\T NSI\base de données\role.png)
+![jouer](/BaseDeDonnees/IMG/role.png)
 
 
 
@@ -134,9 +135,9 @@ et d’ajouter une clef étrangère Films.idGenre référençant la clef primair
 Genres.idGenre
 
 
-![](D:\DISQUE ESSB\lycee\T NSI\base de données\film_genre.png)
+![](/BaseDeDonnees/IMG/film_genre.png)
 
-![](D:\DISQUE ESSB\lycee\T NSI\base de données\cont_ref.png)
+![](BaseDeDonnees/IMG/cont_ref.png)
 
 ## Relations entre les tables
 
