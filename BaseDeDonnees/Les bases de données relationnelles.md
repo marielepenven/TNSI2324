@@ -138,7 +138,7 @@ On appelle **schéma relationnel**  l'ensemble de tous les schémas de relation 
 
 Graphiquement, on peut représenter le schéma relationnel de notre base ainsi:
 
-![](/BaseDeDonnees/schéma_relationnel.jpg)
+![](/BaseDeDonnees/IMG/schéma_relationnel.jpg)
 
 
 
