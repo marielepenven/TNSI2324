@@ -421,7 +421,7 @@ WHERE Clients.nom = 'BIJOBA';
 
 - il existe plusieurs types de jointures INNER, LEFT, RIGHT, FULL... mais c’est la jointure INNER qui est la plus utilisée et au programme en NSI.
 
-  ![](D:\DISQUE ESSB\lycee\T NSI\base de données\inner.png)
+  ![](/BaseDeDonnees/IMG/inner.png)
 
 ### e. Contraintes d’intégrité. 
 
