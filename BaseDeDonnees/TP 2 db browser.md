@@ -18,10 +18,10 @@ Pour écrire et tester vos requêtes SQL, il faut :
 
 5. vérifier le résultat obtenu  
 
-  ![](\BaseDeDonnees\IMG\sql.png)
+  ![](/BaseDeDonnees/IMG/sql.png)
 
 Rappel du schéma relationnel :
-![](\BaseDeDonnees\IMG\schema_bdd_cinema_v2.png)
+![](/BaseDeDonnees/IMG/schema_bdd_cinema_v2.png)
 
 A garder sous les yeux pour la rédaction des requêtes.
 
