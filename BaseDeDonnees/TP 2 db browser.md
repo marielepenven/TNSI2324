@@ -62,7 +62,7 @@ est liée à une contrainte d’intégrité, précisez laquelle.
 |![](/BaseDeDonnees/IMG/r5.png)||
 |![](/BaseDeDonnees/IMG/r6.png)||
 
-## III. Interrogation sur une table  
+## IV. Interrogation sur une table  
 
 
 
@@ -83,7 +83,7 @@ R21 - Calculez le nombre de salles moyen des cinémas
 R22 - Calculez le nombre total de fauteuils disponibles pour tous les cinémas  
 R23 - Calculez combien de films sont sortis en 1995  
 
-## IV. Interrogation sur plusieurs tables (jointures)  
+## V. Interrogation sur plusieurs tables (jointures)  
 
 Pour chaque proposition suivante, écrire la requête SQL correspondante.  
 
