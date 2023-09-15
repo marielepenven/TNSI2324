@@ -2,7 +2,7 @@
 
 
 
-## 1. Généralités.
+## I. Généralités.
 
 
 
@@ -34,7 +34,7 @@
 
 ​	On distingue :
 
-- - les constructeurs qui 	permettent de créer une nouvelle structure de données ;
+  - les constructeurs qui 	permettent de créer une nouvelle structure de données ;
   - les opérateurs, qui 	permettent de modifier la structure de données, par exemple en 	ajoutant ou en retirant des données,
   - les accesseurs qui 	donnent des informations sur la structure de données, comme par 	exemple son nombre d’éléments.  	
   - Les itérateurs qui 	permettent d'énumérer les éléments de la structure de données. 			
@@ -55,7 +55,7 @@
 
 ​	Une structure de données a plusieurs caractéristiques. 
 
-- - Structure linéaire ou 	non linéaire. Lorsque les éléments sont ordonnés, s'il y a une 	chronologie, on parle de structure linéaire.
+  - Structure linéaire ou 	non linéaire. Lorsque les éléments sont ordonnés, s'il y a une 	chronologie, on parle de structure linéaire.
   - Structure homogène ou 	non homogène. Les éléments sont tous du même type ou pas. Cela 	peut poser des problèmes suivants que le typage est statique ou 	dynamique.  	
   - Structure statique ou 	dynamique. La taille est fixée et ne peut pas être modifiée ou 	elle peut varier suivant les besoins.  	
 
@@ -64,14 +64,12 @@
 ​	Nous allons étudier, cette année, les listes chaînées, les piles, les files, les arbres et les 	graphes. 
 
 
-
-1. Les listes chaînées.
-
+## II. Les listes chaînées.
 
 
-1. 1. 1. Les listes en python.
+### 1. Les listes en python.
 
-​	Nous avons vu, en classe de première, une structure de donnée en python, appelée list. 
+​	Nous avons vu, en classe de première, une structure de donnée en python, appelée `list`. 
 
 
 
@@ -79,15 +77,10 @@
 
 ​	append, pop, remove, len, …..
 
-
-
 ​	Nous avons appris à utiliser l'interface liée au type list mais nous n'en connaissons pas 	l'implémentation. 
-
-1. 
-
-2. Le type list est, en réalité, un tableau dynamique. C'est à dire qu'il place tous les éléments de notre liste dans  des emplacements de mémoire contigus.  
-
-
+Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il place tous les éléments de notre liste dans  des emplacements de mémoire contigus.  
+||--||--||--||--||--||--||--||
+||1||25||13||42||25||..||
 
 ​	
 
