@@ -79,7 +79,7 @@
 
 ​	Nous avons appris à utiliser l'interface liée au type list mais nous n'en connaissons pas 	l'implémentation. 
 Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il place tous les éléments de notre liste dans  des emplacements de mémoire contigus.  
-|--|--|--|--|--|--|--|
+|--|:--:|:--:|:--:|:--:|:--:|:--||
 |1|25|13|42|25|..|
 
 ​	
