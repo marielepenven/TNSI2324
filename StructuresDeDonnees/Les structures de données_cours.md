@@ -91,7 +91,7 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 
 
-2. Les listes chaînées.
+### 2. Les listes chaînées.
 
 
 
@@ -105,6 +105,9 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 ​	
 ![](/StructuresDeDonnees/img/cellule.jpg)
+
+Les cellules forment ainsi une liste chainée. 
+
 ![](/StructuresDeDonnees/img/listechainee.jpg)
 ​	
 
@@ -114,17 +117,13 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 ​	
 
-1. Les Piles.
-
-
-
+## II.  Les Piles.
 
 
 ​	Un pile est un ensemble ordonnée d’éléments qui se comporte comme une pile d'assiettes : 	on peut ajouter une assiette sur la pile ou prendre l'assiette sur le dessus de la pile. 
+	
 
-​	
-
-​	
+​	![](/StructuresDeDonnees/img/imagepile.jpg)
 
 
 
@@ -134,17 +133,17 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 ​	Exemple :
 
-- - Lors 	de la navigation sur le web, les url des pages visitées sont 	stockées dans une pile.
+  - Lors 	de la navigation sur le web, les url des pages visitées sont 	stockées dans une pile.
   - La 	fonction «Annuler la frappe» (en anglais «Undo») d’un 	traitement de texte mémorise les modifications apportées au texte 	dans une pile.  	
 
 
 
 ​	Son interface minimale est la suivante : 
 
-- creer_pile() : son constructeur qui retourne une pile vide ;
-- pile_vide(P) :indique True si la pile P est vide et False sinon ;
-- empiler(P,x,) : ajoute l’élément x au sommet de la pile P (en anglais, on dirai push(P,x)
-- dépiler(P) : retire, s 'il existe, le dernier élément de la pile P (en anglais, on dirait pop(P,x)
+- `creer_pile()` : son constructeur qui retourne une pile vide ;
+- `pile_vide(P)` :indique True si la pile P est vide et False sinon ;
+- `empiler(P,x,)` : ajoute l’élément x au sommet de la pile P (en anglais, on dirai push(P,x)
+- `dépiler(P)`  : retire, s 'il existe, le dernier élément de la pile P (en anglais, on dirait pop(P,x)
 
 
 
@@ -153,24 +152,25 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 ​	Considérons une classe Pile() dans laquelle les méthodes ci-dessus auraient été implémentées.
 
 ​	Donner le contenu de mapile à chaque étape :
+``` python
 
-1. 1. 1. mapile 		= Pile()
+         mapile 		= Pile()
 
-      2. mapile.empile('Zoe')
+        mapile.empile('Zoe')
 
-      3. mapile.empile('Luc')
+        mapile.empile('Luc')
 
-      4. mapile.empile('Sofian')
+        mapile.empile('Sofian')
 
-      5. mapile.empile('Agathe')
+        mapile.empile('Agathe')
 
-      6. mapile.depile()
+        mapile.depile()
 
-      7. mapile.depile()
+        mapile.depile()
 
-      8. mapile.empile('Louis')
+        mapile.empile('Louis')
 
-      9. mapile.depile()
+        mapile.depile() ```
 
 
 
