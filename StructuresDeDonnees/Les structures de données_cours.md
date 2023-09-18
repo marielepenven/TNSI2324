@@ -177,6 +177,7 @@ Les cellules forment ainsi une liste chainée.
 
 
 ​	En python, il est possible d'utiliser différentes structures afin d'implémenter une pile :
+
 	- les tuples
  	- les list (python)
  	- les listes chaînées.  	
