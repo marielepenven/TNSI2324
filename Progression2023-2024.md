@@ -2,13 +2,13 @@
 
 1. Projet: le jeu de la vie. 
 2. Programmation orientée objet
-3. Récursivité. 
-4. Base de données
-5. Structures de données:
+3. Base de données
+4. Structures de données:
    - Listes
    - Piles
    - Files
    - Dictionnaires
+5. Récursivité. 
 6. Processus
 7. Arbres
 8. Protocoles de routage
