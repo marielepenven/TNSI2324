@@ -83,26 +83,15 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 ​
 ​	Le tableau étant dynamique, l'insertion d'un nouvel élément dans la liste est possible, il faut 	néanmoins décaler tous éléments à droite pour faire de la place au nouvel élément. Cela 	prend beaucoup de temps si l’élément ne doit pas être inséré à la fin du tableau. 
-![](/StructuresDeDonnees/img/tableau_modif.JPG)
+![](/StructuresDeDonnees/img/tableaumodif.jpg)
 ​	
 
 ​	
-
-
-
-
-
-​	
-
-
-
-
-
 ​	Imaginons une structure de liste qui pourrait insérer un élément en temps constant. 
 
 
 
-1. 1. 1. Les listes chaînées.
+2. Les listes chaînées.
 
 
 
@@ -115,19 +104,12 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 ​	Ainsi, chaque élément est stocké dans un petit bloc alloué quelque part dans la mémoire, que 	l'on pourra appeler maillon ou cellule, et y est accompagné d'une deuxième information : 	l'adresse mémoire où se trouve la cellule contenant l’élément suivante de la liste. 
 
 ​	
-
-
-
+![](/StructuresDeDonnees/img/cellule.jpg)
+![](/StructuresDeDonnees/img/listechainee.jpg)
 ​	
 
-
-
-
-
-
-
 ​	Pour insérer un élément, il suffit de changer deux « pointeurs » : 
-
+![](/StructuresDeDonnees/img/insererlistechainee.jpg)
 
 
 ​	
