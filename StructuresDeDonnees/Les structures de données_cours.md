@@ -118,13 +118,13 @@ Les cellules forment ainsi une liste chainée.
 
 ​	
 
-## II.  Les Piles.
+## III.  Les Piles.
 
 
 ​	Un pile est un ensemble ordonnée d’éléments qui se comporte comme une pile d'assiettes : 	on peut ajouter une assiette sur la pile ou prendre l'assiette sur le dessus de la pile. 
 	
 
-​	![](/StructuresDeDonnees/img/imagepile.jpg)
+​![](/StructuresDeDonnees/img/imagepile.jpg)
 
 
 
@@ -186,7 +186,7 @@ Les cellules forment ainsi une liste chainée.
 
 
 
-## III.  Les files.
+## IV.  Les files.
 
 
 
@@ -249,7 +249,7 @@ Les cellules forment ainsi une liste chainée.
 
 
 
-## IV. Les dictionnaires.
+## V. Les dictionnaires.
 
 	Un dictionnaire, en informatique,  est une structure de données qui associe des clés à des 	valeurs. 
 
