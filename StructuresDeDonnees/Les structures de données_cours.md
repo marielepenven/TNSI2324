@@ -154,7 +154,7 @@ Les cellules forment ainsi une liste chainée.
 ​	Donner le contenu de mapile à chaque étape :
 ``` python
 
-         mapile 		= Pile()
+         mapile = Pile()   
 
         mapile.empile('Zoe')
 
@@ -170,49 +170,42 @@ Les cellules forment ainsi une liste chainée.
 
         mapile.empile('Louis')
 
-        mapile.depile() ```
+        mapile.depile()
+ ```
 
 
 
 ​	En python, il est possible d'utiliser différentes structures afin d'implémenter une pile :
 
-- - les 	tuples
-  - les 	list (python)
-  - les 	listes chaînées.  	
+	 - les tuples
+ 	 - les list (python)
+ 	 - les listes chaînées.  	
 
 
 
 
 
-1. Les files.
+## III.  Les files.
 
 
 
-​	Une file est un ensemble ordonné d’éléments qui se comporte comme une file d'attente : un 	nouvel arrivant se met à la fin de la file, tandis que la prochaine personne servie est celle en 	tête de file. 
+​	Une file est un ensemble ordonné d’éléments qui se comporte comme une file d'attente : un nouvel arrivant se met à la fin 	de la file, tandis que la prochaine personne servie est celle en tête de file. 
 
-
-
-​	
-
+	![](/StructuresDeDonnees/img/imagefile.jpg)
+ 
 
 
 ​	C'est la règle du premier arrivé, premier servi : FIFO (First In, First Out). 
 
 
-
 ​	Exemple : Elles sont utilisées lors, par exemple, de l'envoi d'instruction à un processeur. 
-
-
 
 ​	Son interface minimale est la suivante : 
 
-- creer_file() : son constructeur qui retourne une file vide ;
-- file_vide(F) :indique True si la file F est vide et False sinon ;
-- enfiler(F,x) : ajoute l’élément x à la fin de la file F.  
-- défiler(F) : retire, s 'il existe, le premier élément de la pile F.  
-
-
-
+	- `creer_file()` : son constructeur qui retourne une file vide ;
+	- `file_vide(F)` :indique True si la file F est vide et False sinon ;
+	- `enfiler(F,x)` : ajoute l’élément x à la fin de la file F.  
+	- `défiler(F)` : retire, s 'il existe, le premier élément de la pile F.  
 
 
 ​	Exemple :
@@ -221,7 +214,7 @@ Les cellules forment ainsi une liste chainée.
 
 ​	Donner le contenu de mafile à chaque étape :
 
-
+	```python
 
 ​		mafile = File()
 
@@ -242,37 +235,34 @@ Les cellules forment ainsi une liste chainée.
 ​		mafile.defiler()
 
 ​		mafile.defiler()
-
+	```
 
 
 ​	
 
 ​	Il est possible d'utiliser plusieurs méthodes pour les implémenter :
 
-- - les 	listes python
-  - deux 	piles.  	
+	 -les listes python
+  	- deux 	piles. 
+   
 
 
 
-1. Les dictionnaires.
+## IV. Les dictionnaires.
 
+	Un dictionnaire, en informatique,  est une structure de données qui associe des clés à des 	valeurs. 
 
-
-
-
-​	Un dictionnaire, en informatique,  est une structure de données qui associe des clés à des 	valeurs. 
-
-​	Cela se rapproche très fortement de la définition classique d'un dictionnaire tel que nous le 	connaissons : à un mot (la clé), on associe sa définition (la valeur). 
+​	Cela se rapproche très fortement de la définition classique d'un dictionnaire tel que nous le 	connaissons : à un mot 		(la clé), on associe sa définition (la valeur). 
 
 
 
 ​	L'interface minimale d'un dictionnaire est la suivante :
 
-- - creer_dico() : 	son constructeur qui retourne un dictionnaire vide.
-  - ajouter(d,cle,valeur) : 	opérateur qui ajoute cle au dictionnaire et l'associe à valeur.  	
-  - valeur_cle(d,cle) : 	accesseur qui retourne la valeur associée à cle, si elle est 	présente.  	
-  - cles_dico(d) : 	itérateur qui énumère les clés du dictionnaire.  	
-  - supprime(d,cle) : 	supprime la clé et la valeur associée du dictionnaire.  	
+	 - `creer_dico()` : 	son constructeur qui retourne un dictionnaire vide.
+ 	 - `ajouter(d,cle,valeur)` : 	opérateur qui ajoute cle au dictionnaire et l'associe à valeur.  	
+ 	 - `valeur_cle(d,cle)` : 	accesseur qui retourne la valeur associée à cle, si elle est 	présente.  	
+ 	 - `cles_dico(d)` : 	itérateur qui énumère les clés du dictionnaire.  	
+ 	 - `supprime(d,cle)` : 	supprime la clé et la valeur associée du dictionnaire.  	
 
 
 
@@ -282,7 +272,7 @@ Les cellules forment ainsi une liste chainée.
 
 ​	Donner le contenu de mondic à chaque étape ou la valeur obtenue :
 
-
+	```python
 
 ​	mondic=creer_dico()
 
@@ -297,17 +287,16 @@ Les cellules forment ainsi une liste chainée.
 ​	mondic.supprime('premiere')
 
 ​	mondic.cles_dico()
+	```
 
 
 
 ​	Le langage python fournit directement le type structuré dict qui implémente un dictionnaire :
-
-- - creer_dico() : 	`d = dict() ou d={}`
-
-- - ajouter(d,cle,valeur) : 	d[cle]=valeur
-  - valeur_cle(d,cle) : 	d[cle]
-  - cles_dico(d) : 	for cle in d :
-  - supprime(d,cle) : 	del d[cle]
+	- `creer_dico()` : 	`d = dict()` ou `d={}`
+	- ajouter(d,cle,valeur) : 	`d[cle]=valeur`
+ 	- valeur_cle(d,cle) : 	`d[cle]`
+ 	- cles_dico(d) : 	`for cle in d :`
+  	- supprime(d,cle) : 	`del d[cle]`
 
 
 
