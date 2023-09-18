@@ -83,7 +83,7 @@ Le type `list` est, en réalité, un tableau dynamique. C'est à dire qu'il plac
 
 ​
 ​	Le tableau étant dynamique, l'insertion d'un nouvel élément dans la liste est possible, il faut 	néanmoins décaler tous éléments à droite pour faire de la place au nouvel élément. Cela 	prend beaucoup de temps si l’élément ne doit pas être inséré à la fin du tableau. 
-![](/StructuresDeDonnees/img/modif_tableau.JPG)
+![](/StructuresDeDonnees/img/tableau_modif.JPG)
 ​	
 
 ​	
