@@ -153,7 +153,7 @@ Les cellules forment ainsi une liste chainée.
 ​	Considérons une classe Pile() dans laquelle les méthodes ci-dessus auraient été implémentées.
 
 ​	Donner le contenu de mapile à chaque étape :
-``` python
+	``` python
 
          mapile = Pile()   
 
@@ -172,7 +172,7 @@ Les cellules forment ainsi une liste chainée.
         mapile.empile('Louis')
 
         mapile.depile()
- ```
+	 ```
 
 
 
@@ -192,7 +192,7 @@ Les cellules forment ainsi une liste chainée.
 
 ​	Une file est un ensemble ordonné d’éléments qui se comporte comme une file d'attente : un nouvel arrivant se met à la fin 	de la file, tandis que la prochaine personne servie est celle en tête de file. 
 
-	​![](/StructuresDeDonnees/img/imagfpile.jpg)
+	​![](/StructuresDeDonnees/img/imagefile.jpg)
 
 
 
