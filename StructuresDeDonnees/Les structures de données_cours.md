@@ -192,8 +192,8 @@ Les cellules forment ainsi une liste chainée.
 
 ​	Une file est un ensemble ordonné d’éléments qui se comporte comme une file d'attente : un nouvel arrivant se met à la fin 	de la file, tandis que la prochaine personne servie est celle en tête de file. 
 
-	![](/StructuresDeDonnees/img/imagefile.jpg)
- 
+	​![](/StructuresDeDonnees/img/imagfpile.jpg)
+
 
 
 ​	C'est la règle du premier arrivé, premier servi : FIFO (First In, First Out). 
