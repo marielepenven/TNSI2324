@@ -24,13 +24,13 @@ Implémenter le type abstrait Point de trois façons différentes :
 
 `marque = 'Ford', couleur = 'rouge', pilote='personne', vitesse = 0`. 
 
-1. Ajouter une méthode choix_conducteur(nom) qui permettra de désigner (ou changer) le nom du conducteur.
+2. Ajouter une méthode choix_conducteur(nom) qui permettra de désigner (ou changer) le nom du conducteur.
 
-2. Ajouter une méthode `accelerer(taux,duree)` qui permettra de faire varier la vitesse de la voiture. La variation de vitesse obtenue sera égale au produit : taux*duree.  
+3. Ajouter une méthode `accelerer(taux,duree)` qui permettra de faire varier la vitesse de la voiture. La variation de vitesse obtenue sera égale au produit : taux*duree.  
 
    Par exemple, si la voiture accélère aux taux de 1,3m/s pendant 20 secondes, son gain de vitesse doit être égal à 26 m/s. Des taux négatifs seront acceptés (ce qui permet de décélérer). La variation de vitesse ne sera pas autorisée si le conducteur est 'personne'.  
 
-3. Ajouter une méthode `affiche_tout()` qui permettra de faire apparaître les propriétés présentes de la voiture.  
+4. Ajouter une méthode `affiche_tout()` qui permettra de faire apparaître les propriétés présentes de la voiture.  
 
 
 
@@ -102,7 +102,7 @@ True
 
 #### Exercice 4 : 
 
-1. Définir une classe Classe qui représente une carte à jouer, définie par sa valeur (1 à 13) et sa couleur (pique, cœur, carreau, trèfle).  
+1. Définir une classe Carte qui représente une carte à jouer, définie par sa valeur (1 à 13) et sa couleur (pique, cœur, carreau, trèfle).  
 
 2.  Ajouter une méthode nom qui retourne le nom de la carte, par exemple « Dame de Pique ».  
 
