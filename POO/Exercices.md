@@ -123,7 +123,7 @@ True
 
 
 
-### Exercice type bac.
+### Exercice 6 type bac.
 
 Cryptage selon le « Code de César »  
 
@@ -205,3 +205,54 @@ Pour des raisons historiques, cette méthode de chiffrement est appelée  "code 
       On exécute la ligne suivante : `print(CodeCesar(10).transforme("PSX"))`
 
        Que va-t-il s’afficher ? Expliquer votre réponse.
+
+   ### Exercice 7 type bac:
+La société LOCAVACANCES doit gérer la réservation de l’ensemble des chambres de 
+ses gîtes. Chaque chambre d’un même complexe sera différenciée par son nom. 
+Pour cela, d’un point de vue informatique, on a créé deux classes : Chambre et Gite
+dont le code est donné ci-dessous. 
+   ```python
+class Chambre:
+
+    def __init__(self, nom: str): 
+       self._nom = nom 
+       self._occupation = [False for i in range(365)]
+
+    def get_nom(self): 
+       return self._nom 
+ 
+    def get_occupation(self): 
+       return self._occupation 
+ 
+    def reserver(self, date: int): 
+       self._occupation[date - 1] = True 
+
+class Gite:
+    def __init__(self, nom: str): 
+       self._nom = nom 
+       self._chambres = [] 
+ 
+    def __str__(self): 
+       n = len(self._chambres) 
+       if n == 0: 
+          return "L'hôtel " + self._nom + " n’a aucune chambre."
+       else: 
+          return "L’hôtel " + self._nom + " a " + str(n) + " chambre(s)" 
+ 
+    def get_chambres(self): 
+          return self._chambres 
+ 
+    def get_nchambres(self): 
+          return [ch.get_nom() for ch in self._chambres] 
+ 
+    def ajouter_chambres(self, nom_ch : str): 
+          self._chambres.append(Chambre(nom_ch)) 
+ 
+    def mystere(self, date): 
+          l_ch = [] 
+          for ch in self._chambres : 
+               if ch.get_occupation()[date - 1] == False : 
+                   l_ch.append(ch.get_nom()
+           return(l_ch)
+```
+
