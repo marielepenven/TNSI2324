@@ -256,6 +256,7 @@ class Gite:
            return(l_ch)
 ```
 Partie A - Étude de la classe `Chambre` : 
+
 1. Lister les attributs en donnant leur type. Préciser s’ils sont modifiables dans la
 classe, en explicitant la méthode associée.
 2. Écrire un `assert` dans la méthode reserver pour vérifier si le nombre date
@@ -265,9 +266,12 @@ bissextiles).
 réservation pour le jour `date`.
 
 Partie B - Étude de la classe `Gite` : 
+
 Le gîte « BonneNuit » a 5 chambres dénommées 
 'Ch1', 'Ch2', 'Ch3', 'Ch4', 'Ch5'
+
 On définit l’objet `GiteBN` par l’instruction : `GiteBN = Gite("BonneNuit")`. 
+
 1. Méthode `ajouter_chambres()`
 Écrire l’instruction Python pour ajouter 'Ch1' à l’objet `GiteBN`.
 
@@ -279,6 +283,7 @@ mais elle ne teste pas si le nom de cette chambre existe déjà.
 Modifier la méthode pour éviter cet éventuel doublon.
 
 3. Étude des méthodes : `get_chambres()` et `get_nchambres()`
+
 a.  Parmi les 4 propositions ci-dessous, quel est le type renvoyé par l’instruction
 Python : `GiteBN.get_chambres()`
 - String
@@ -295,8 +300,10 @@ c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `
 
 4. Les chambres 'Ch1', 'Ch3', 'Ch5' sont réservées pour tout le mois de Janvier
 2021.
+
 La méthode `mystère` étant précisée ci-dessus, répondre
 aux questions suivantes :
+
 a. Que va renvoyer l’instruction `GiteBN.mystere(3)` ?
 b. Dans la méthode `mystère`, quel est type des variables en paramètre et en
 sortie ?
