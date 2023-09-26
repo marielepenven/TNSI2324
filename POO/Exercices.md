@@ -164,7 +164,7 @@ Pour des raisons historiques, cette méthode de chiffrement est appelée  "code 
 
     
 
-   2. La méthode de chiffrement du « code César » consiste à décaler les lettres du  message dans l’alphabet d'un nombre de rangs fixé par la clé. Par exemple,  avec la clé 3, toutes les lettres sont décalées de 3 rangs vers la droite : le A  devient le D, le B devient le E, etc.   
+2. La méthode de chiffrement du « code César » consiste à décaler les lettres du  message dans l’alphabet d'un nombre de rangs fixé par la clé. Par exemple,  avec la clé 3, toutes les lettres sont décalées de 3 rangs vers la droite : le A  devient le D, le B devient le E, etc.   
 
        Ajouter une méthode `cryptage(self, texte)` dans la classe` CodeCesar` définie  à la question précédente, qui reçoit en paramètre une chaîne de caractères (le  message à crypter) et qui retourne une chaîne de caractères (le message  crypté).  
 
@@ -180,7 +180,7 @@ Pour des raisons historiques, cette méthode de chiffrement est appelée  "code 
 
       
 
-   3. Ecrire un programme qui : 
+3. Ecrire un programme qui : 
 
       - demande de saisir la clé de chiffrement
 
@@ -192,7 +192,7 @@ Pour des raisons historiques, cette méthode de chiffrement est appelée  "code 
 
         
 
-   4. On ajoute la méthode ` transforme(texte)` à la classe ` CodeCesar` :  
+4. On ajoute la méthode ` transforme(texte)` à la classe ` CodeCesar` :  
 
       ```
       def transforme(self, texte):  
