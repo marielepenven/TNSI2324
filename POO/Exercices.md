@@ -299,8 +299,7 @@ Python : `GiteBN.get_chambres()`
    c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `get_chambres()`? 
 
 4. Les chambres 'Ch1', 'Ch3', 'Ch5' sont réservées pour tout le mois de Janvier
-2021.
-      La méthode `mystère` étant précisée ci-dessus, répondre
+2021. La méthode `mystère` étant précisée ci-dessus, répondre
 aux questions suivantes :
 
 
