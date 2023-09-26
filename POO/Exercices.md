@@ -284,27 +284,28 @@ Modifier la méthode pour éviter cet éventuel doublon.
 
 3. Étude des méthodes : `get_chambres()` et `get_nchambres()`
 
-a.  Parmi les 4 propositions ci-dessous, quel est le type renvoyé par l’instruction
+   a.  Parmi les 4 propositions ci-dessous, quel est le type renvoyé par l’instruction
 Python : `GiteBN.get_chambres()`
-- String
-- Objet Chambre
-- Tableau de String
-- Tableau d'objet Chambre
+   - String
+   - Objet Chambre
+   - Tableau de String
+   - Tableau d'objet Chambre
 
-b. Qu'affiche la suite d'instructions suivante? 
-```python
-Ch = BiteBN.get_chambres()[1]
-print(Ch.get_nom())
-```
+   b. Qu'affiche la suite d'instructions suivante? 
+   ```python
+   Ch = BiteBN.get_chambres()[1]
+   print(Ch.get_nom())
+   ```
 c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `get_chambres()`? 
 
 4. Les chambres 'Ch1', 'Ch3', 'Ch5' sont réservées pour tout le mois de Janvier
 2021.
-
-La méthode `mystère` étant précisée ci-dessus, répondre
+   La méthode `mystère` étant précisée ci-dessus, répondre
 aux questions suivantes :
 
-a. Que va renvoyer l’instruction `GiteBN.mystere(3)` ?
-b. Dans la méthode `mystère`, quel est type des variables en paramètre et en
+
+   a. Que va renvoyer l’instruction `GiteBN.mystere(3)` ?
+   
+   b. Dans la méthode `mystère`, quel est type des variables en paramètre et en
 sortie ?
-Quelles sont les méthodes ou attributs dont elle a besoin ?
+   c. Quelles sont les méthodes ou attributs dont elle a besoin ?
