@@ -255,4 +255,49 @@ class Gite:
                    l_ch.append(ch.get_nom()
            return(l_ch)
 ```
+Partie A - Étude de la classe `Chambre` : 
+1. Lister les attributs en donnant leur type. Préciser s’ils sont modifiables dans la
+classe, en explicitant la méthode associée.
+2. Écrire un `assert` dans la méthode reserver pour vérifier si le nombre date
+passé en paramètre est bien compris entre 1 et 365 (on ne gère pas les années
+bissextiles).
+3. Écrire la méthode `AnnulerReserver(self, date : int`) qui annule la
+réservation pour le jour `date`.
 
+Partie B - Étude de la classe `Gite` : 
+Le gîte « BonneNuit » a 5 chambres dénommées 
+'Ch1', 'Ch2', 'Ch3', 'Ch4', 'Ch5'
+On définit l’objet `GiteBN` par l’instruction : `GiteBN = Gite("BonneNuit")`. 
+1. Méthode `ajouter_chambres()`
+Écrire l’instruction Python pour ajouter 'Ch1' à l’objet `GiteBN`.
+
+Dans les questions suivantes 2, 3 et 4, on considère que l’objet GiteBN contient toutes
+les chambres du gite « BonneNuit ». 
+
+2. La méthode `ajouter_chambres` permet d’enregistrer une nouvelle chambre,
+mais elle ne teste pas si le nom de cette chambre existe déjà.
+Modifier la méthode pour éviter cet éventuel doublon.
+
+3. Étude des méthodes : `get_chambres()` et `get_nchambres()`
+a.  Parmi les 4 propositions ci-dessous, quel est le type renvoyé par l’instruction
+Python : `GiteBN.get_chambres()`
+- String
+- Objet Chambre
+- Tableau de String
+- Tableau d'objet Chambre
+
+b. Qu'affiche la suite d'instructions suivante? 
+```python
+Ch = BiteBN.get_chambres()[1]
+print(Ch.get_nom())
+```
+c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `get_chambres()`? 
+
+4. Les chambres 'Ch1', 'Ch3', 'Ch5' sont réservées pour tout le mois de Janvier
+2021.
+La méthode `mystère` étant précisée ci-dessus, répondre
+aux questions suivantes :
+a. Que va renvoyer l’instruction `GiteBN.mystere(3)` ?
+b. Dans la méthode `mystère`, quel est type des variables en paramètre et en
+sortie ?
+Quelles sont les méthodes ou attributs dont elle a besoin ?
