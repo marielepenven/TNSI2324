@@ -296,11 +296,11 @@ Python : `GiteBN.get_chambres()`
    Ch = BiteBN.get_chambres()[1]
    print(Ch.get_nom())
    ```
-c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `get_chambres()`? 
+   c. Quelle différence existe-t-il entre les deux méthodes `get_nchambres()`et `get_chambres()`? 
 
 4. Les chambres 'Ch1', 'Ch3', 'Ch5' sont réservées pour tout le mois de Janvier
 2021.
-   La méthode `mystère` étant précisée ci-dessus, répondre
+      La méthode `mystère` étant précisée ci-dessus, répondre
 aux questions suivantes :
 
 
