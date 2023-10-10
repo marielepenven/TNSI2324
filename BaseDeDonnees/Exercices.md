@@ -267,17 +267,17 @@ On suppose dans l’exercice que tous les joueurs d’une équipe jouent à chaq
 
  La structure de la base de données est composée des deux tables (ou relations)  suivantes: 
 
-![](\BaseDeDonnes\IMG\img1_ex8.jpg)
+![](/BaseDeDonnes/IMG/img1_ex8.jpg)
 
 Ci-dessous, un exemple de que l'on peut trouver dans la base de données:
 
 Exemple **non exhaustif ** d'entrées de la table `licencies`. 
 
-![](\BaseDeDonnees\IMG\img2_ex8.jpg)
+![](/BaseDeDonnees/IMG/img2_ex8.jpg)
 
 Exemple **non exhaustif ** d'entrées de la table `matchs`. 
 
-![](\BaseDeDonnees\IMG\img3_ex8.jpg)
+![](/BaseDeDonnees/IMG/img3_ex8.jpg)
 
 1. a. L’attribut nom de la table licencies pourrait-il servir de clé primaire ?  Justifier.
 
@@ -313,7 +313,7 @@ L’énoncé de cet exercice utilise les mots du langage SQL suivants :
 
 On considère dans cet exercice une gestion simplifiée des emprunts des ouvrages d’un  CDI. La base de données utilisée sera constituée de trois relations (ou tables) nommées  `Eleves`, `Livres` et `Emprunts` selon le schéma relationnel suivant :
 
-![](\IMG\img1_ex9.jpg)
+![](/BaseDeDonnees/IMG/img1_ex9.jpg)
 
 Dans ce schéma relationnel, un attribut souligné indique qu’il s’agit d’une clé primaire.  Le symbole # devant un attribut indique qu’il s’agit d’une clé étrangère et la flèche  associée indique l’attribut référencé. Ainsi, l’attribut` idEleve` de la relation Emprunts est une clé étrangère qui fait référence à la clé primaire `idEleve` de la relation `Eleves`.
 
