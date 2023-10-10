@@ -267,7 +267,7 @@ On suppose dans l’exercice que tous les joueurs d’une équipe jouent à chaq
 
  La structure de la base de données est composée des deux tables (ou relations)  suivantes: 
 
-![](\IMG\img1_ex8.jpg)
+![](\BaseDeDonnes\IMG\img1_ex8.jpg)
 
 Ci-dessous, un exemple de que l'on peut trouver dans la base de données:
 
