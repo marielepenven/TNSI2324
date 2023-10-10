@@ -313,7 +313,7 @@ L’énoncé de cet exercice utilise les mots du langage SQL suivants :
 
 On considère dans cet exercice une gestion simplifiée des emprunts des ouvrages d’un  CDI. La base de données utilisée sera constituée de trois relations (ou tables) nommées  `Eleves`, `Livres` et `Emprunts` selon le schéma relationnel suivant :
 
-![](\BaseDeDonnees\IMG\img1_ex9.jpg)
+![](\IMG\img1_ex9.jpg)
 
 Dans ce schéma relationnel, un attribut souligné indique qu’il s’agit d’une clé primaire.  Le symbole # devant un attribut indique qu’il s’agit d’une clé étrangère et la flèche  associée indique l’attribut référencé. Ainsi, l’attribut` idEleve` de la relation Emprunts est une clé étrangère qui fait référence à la clé primaire `idEleve` de la relation `Eleves`.
 
