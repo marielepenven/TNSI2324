@@ -29,7 +29,7 @@ L'ordonnancement est de type préemptif, ce qui signifie qu'à chaque unité de 
 
 1. Reproduire le diagramme ci-dessous, sur votre copie, et indiquer dans chacune des cases le processus exécuté par le processeur entre deux unités de temps (il peut y avoir des cases vides). 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\processus\ex 1 img 1.jpg)
+   ![](/LesProcessus/IMG/ex1img1.jpg)
 
 2. Recopier et compléter les temps de séjour ainsi que les temps d'attente de chacun des processus (toujours en unités de temps). 
 
@@ -83,7 +83,7 @@ Cet exercice pourra utiliser des commandes de systèmes d'exploitation de type U
 
 1. Dans un système d'exploitation de type UNIX, on considère l'arborescence des fichiers suivante dans laquelle les noms de dossiers sont en italique et ceux des fichiers en gras: 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\processus\img 1 ex2.jpg)
+   ![](/LesProcessus/IMG/img1ex2.jpg)
 
 On souhaite, grâce à l'utilisation du terminal de commande, explorer et modifier les répertoires et fichiers présents. 
 
@@ -113,7 +113,7 @@ d. Ecrire la commande qui permet, à partir de cet emplacement, de supprimer le 
 
    On a exécuté la commande `ps` (avec quelques options qu'il n'est pas nécessaire de connaître pour la réussite de cet exercice). Un extrait du résultat de la commande est présenté ci-dessous:
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\processus\ps image 2.jpg)
+   ![](LesProcessus/IMG/psimage2.jpg)
 
    
 
@@ -150,21 +150,21 @@ d. Parmi tous les processus affichés, citer le PID des deux qui ont consommé l
 
    Lorsqu'un processus est élu, il s'exécute au plus durant un quantum de temps. Si le processus n'a pas terminé son exécution à l'issue du quantum de temps, il réintègre la file des processus prêts (côté entrée). Un autre processus, désormais en tête de la file (côté sortie) des processus prêts, est alors à son tour élu pour une durée égale à un quantum de temps maximum. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\processus\img 3 ex 2.jpg)
+   ![](/LesProcessus/IMG/img3ex2.jpg)
 
 ​	Reproduire le tableau ci-dessous sur la copie et indiquer dans chacune des cases le processus exécuté à chaque cycle. Le quantum correspond à une unité de temps. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\img 4 ex 2 .jpg)
+![](/LesProcessus/IMG/img4ex2.jpg)
 
 ​	b. Dans cette question, on considère que les processus sont exécutés en appliquant la politique du " plus court d'abord": les processus sont exécutés complètement dans l'ordre croissant de leurs temps d'exécution, le plus court étant exécuté en premier. 
 
 Reproduire le tableau ci-dessous sur la copie et indiquer dans chacune des cases le processus exécuté à chaque cycle. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\imag 5 ex 2.jpg)
+![](/LesProcessus/IMG/imag5ex2.jpg)
 
 4. On considère trois ressources R1, R2, et R3 et trois processus P1, P2, et P3 dont les files d'exécution des instructions élémentaires sont indiquées ci-dessous. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\processus\img 6 ex 2.jpg)
+   ![](/LesProcessus/IMG/img6ex2.jpg)
 
 ​	a. Rappeler les différents états d'un processus et expliquer pourquoi il y a ici risque d'interblocage, en proposant un ordre d'exécution des instructions élémentaires le provoquant. 
 
@@ -199,7 +199,7 @@ On appelle p1, p2 et p3 les processus associés respectivement aux programmes 1,
 
 Avec une ligne de commande dans un terminal sous Linux, on obtient l'affichage suivant : 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Les processus\img 1 ex 3.jpg)
+![](/LesProcessus/IMG/img1ex3.jpg)
 
 La documentation Linux donne la signification des différents champs : 
 
