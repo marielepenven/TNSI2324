@@ -9,7 +9,7 @@
 
 On suppose que cette dernière règle est également respectée dans la configuration de départ.
 
-![](/LesToursDeHanoi/IMG/imagetourdehanoi.jpg)
+![](/projets/LesToursDeHanoi/IMG/imagetourdehanoi.jpg)
 
 
 
