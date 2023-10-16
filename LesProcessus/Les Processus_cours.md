@@ -31,7 +31,7 @@ Comment le processeur peut-il exécuter "en même temps" toutes ces tâches?
 
 ​	Une machine doit s'organiser avec une mémoire, une unité arithmétique et logique (dite 	UAL), une unité de contrôle, des systèmes d’entrées sorties et une horloge pour synchroniser 	le fonctionnement. Les différents éléments échangent des informations à l'aide de bus. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Les processus\von neumann.jpg)
+![](/LesProcessus/IMG/vonneumann.jpg)
 
 L'UAL et l'unité de contrôle sont regroupés dans le processeur qui communiquent avec la 	mémoire par un bus. Ces composants constituent l'unité centrale, située sur la carte mère d'un ordinateur.  Le tout est rythmé par une horloge interne qui détermine la fréquence du processeur. 
 
@@ -99,7 +99,7 @@ L'OS choisit un processus parmi les processus prêts:
 
 
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\image 1 processus.jpg)
+![](/LesProcessus/IMG/image1processus.jpg)
 
 #### c. PID et PPID. 
 
@@ -140,7 +140,7 @@ L'ordonnanceur permet:
 
 Le système dispose d'une table des processus, d'une file d'attente des processus prêts et de différentes files d'attente des processus bloqués.
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\trois_processus.jpg)
+![](/LesProcessus/IMG/trois_processus.jpg)
 
 Plusieurs algorithmes d'ordonnancement sont possibles. Parmi les plus répandus, nous pouvons citer:
 
@@ -148,13 +148,13 @@ Plusieurs algorithmes d'ordonnancement sont possibles. Parmi les plus répandus,
 
 ​	Chaque processus créé et placé dans une file et les processus s'exécutent les uns après les autres. C'est celui qu'on utilise, par exemple, pour gérer la file d'impressions d'une imprimante.  
 
-​	![](D:\DISQUE ESSB\lycee\T NSI\processus\file_processus.jpg)
+​	![](/LesProcessus/IMG/file_processus.jpg)
 
 #### 2. Le tourniquet. 
 
 ​	Pour donner l'illusion que les différents programmes tournent en même temps, un temps très court est 	alloué à tour de rôle aux processus. C'est un algorithme simple et facile à mettre en œuvre. La rapidité 		avec laquelle on passe d'un processus au suivant donne l'illusion d'une exécution simultanée.
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\tourniquet.jpg)
+![](/LesProcessus/IMG/tourniquet.jpg)
 
 #### 	3. Le plus court d'abord. 
 
@@ -162,7 +162,7 @@ Plusieurs algorithmes d'ordonnancement sont possibles. Parmi les plus répandus,
 
 ​	Le processus qui se terminera le plus vite passera en priorité. c'est un algorithme très efficace pour 		satisfaire l'utilisateur, mais il est compliquer de déterminer si un processus sera rapidement terminé ou pas avant qu'il ne s'exécute.
 
-![](D:\DISQUE ESSB\lycee\T NSI\processus\plus_court.jpg)
+![](/LesProcessus/IMG/plus_court.jpg)
 
 
 
@@ -176,7 +176,7 @@ Comme nous l'avons vu, les processus d'un système peuvent exécuter de manière
 
 Prenons un exemple: soit un système possédant une instance unique de chacun des deux types de ressources R1 et R2. Un processus P1 détient l'instance de la ressource R1 et un autre processus P2 détient l'instance de la ressource R2. Pour poursuivre son exécution, P1 a besoin de la ressource R2 et inversement P2 a besoin de la ressource R1.Une telle situation est une situation d'interblocage. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\projets\tour de hanoi\interblocage.jpg)
+![](/LesProcessus/IMG/interblocage.jpg)
 
 Plus généralement, on dit qu'un ensemble de processus est dans une situation d'interblocage si chaque processus attend un événement qui ne peut être produit que par un autre processus de l'ensemble. 
 
