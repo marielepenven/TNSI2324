@@ -39,7 +39,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    b. Implémenter la classe `Hanoi`. Celle-ci, en plus de la méthode `init`, devra avoir une méthode permettant d'afficher le contenu des tours de la façon suivante: 
 
-![](/IMG/affichagetours.jpg)
+![](/projets/LesToursDeHanoi/IMG/affichagetours.jpg)
 
 4. Résolution du problème. 
 
