@@ -23,7 +23,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    Considérons une situation où la tour de départ compte n disques à déplacer vers la tour de destination. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\projets\tour de hanoi\algo rec 1.jpg)
+   ![](/LesToursDeHanoi/IMG/algorec.jpg)
 
 ​	a. Quelle est la situation de base ? 
 
