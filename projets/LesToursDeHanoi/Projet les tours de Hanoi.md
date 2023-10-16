@@ -9,7 +9,7 @@
 
 On suppose que cette dernière règle est également respectée dans la configuration de départ.
 
-![](D:\DISQUE ESSB\lycee\T NSI\projets\tour de hanoi\image tour de hanoi.jpg)
+![](/IMG/imagetourdehanoi.jpg)
 
 
 
@@ -39,7 +39,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    b. Implémenter la classe `Hanoi`. Celle-ci, en plus de la méthode `init`, devra avoir une méthode permettant d'afficher le contenu des tours de la façon suivante: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\projets\tour de hanoi\affichage tours.jpg)
+![](/IMG/affichagetours.jpg)
 
 4. Résolution du problème. 
 
@@ -47,7 +47,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    b. Implémenter la fonction `afficher_coup(mestours,depart,destination)`permettant une affichage du type:
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\projets\tour de hanoi\affichage tour.jpg)
+   ![](/IMG/affichagetour.jpg)
 
 ​	c. Implémenter la fonction `resoudre(nb_disques)`permettant d'initialiser la situation de départ et de 		lancer la résolution en générant un affichage. 
 
