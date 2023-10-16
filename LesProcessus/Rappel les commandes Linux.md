@@ -5,7 +5,7 @@
 Indiquez le rôle des commandes suivantes.
 
 | Nom de la commande | Argument                         | Rôle |
-| ------------------ | -------------------------------- | ---- |
+| ------------------ | -------------------------------- | -------------------- |
 | pwd                |                                  |      |
 | ls                 |                                  |      |
 | cd                 | nom du répertoire                |      |
