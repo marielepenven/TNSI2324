@@ -1,6 +1,6 @@
 # Exercices: Les processus. 
 
-**Exercice 1:**Bac. 
+**Exercice 1:** Bac. 
 
 Les parties A et B peuvent être traitées indépendamment.
 
