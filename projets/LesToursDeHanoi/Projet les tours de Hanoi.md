@@ -23,7 +23,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    Considérons une situation où la tour de départ compte n disques à déplacer vers la tour de destination. 
 
-   ![](/LesToursDeHanoi/IMG/algorec.jpg)
+   ![](/projets/LesToursDeHanoi/IMG/algorec.jpg)
 
 ​	a. Quelle est la situation de base ? 
 
@@ -47,7 +47,7 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    b. Implémenter la fonction `afficher_coup(mestours,depart,destination)`permettant une affichage du type:
 
-   ![](/IMG/affichagetour.jpg)
+   ![](/projets/LesToursDeHanoi/IMG/affichagetour.jpg)
 
 ​	c. Implémenter la fonction `resoudre(nb_disques)`permettant d'initialiser la situation de départ et de 		lancer la résolution en générant un affichage. 
 
