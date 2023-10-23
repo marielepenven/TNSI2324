@@ -189,7 +189,7 @@ Dans cette nouvelle représentation, un graphe est un dictionnaire qui associe �
 
 On peut aussi utiliser la liste de prédécesseurs. Ces deux listes sont identiques dans un graphe non orienté : liste des voisins. Dans le cas d’un graphe pondéré, les listes sont remplacées par des dictionnaires.
 
-Le graphe est alors un dictionnaire de **dictionnaires : le dictionnaire de** successeurs a pour clés les étiquettes des sommets successeurs et pour valeurs les valuations des arêtes associées
+Le graphe est alors un dictionnaire de dictionnaires : le dictionnaire de successeurs a pour clés les étiquettes des sommets successeurs et pour valeurs les valuations des arêtes associées
 
 Exemple: Construire les dictionnaires d'adjacence des graphe 1, 2 et 3. 
 
