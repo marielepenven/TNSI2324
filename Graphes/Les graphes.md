@@ -1,20 +1,17 @@
 # Les graphes. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\extrait programme 1.jpg)
-
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\extrait programme 2.jpg)
 
 ### Introduction: le problème des sept ponts de Königsberg. 
 
 En 1736, la ville de Königsberg (actuelle Kaliningrad en Russie) est construite autour de  deux îles situées sur la Pregel et reliées entre elles par un pont. Six autres ponts relient  les rives de la rivière à l’une ou l’autre des deux îles comme représentés sur la figure ci- dessous. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\ponts de konigsberg et schéma.jpg)
+![](/Graphes/IMG/ponts_de_konigsberg_et_schéma.jpg)
 
 Les habitants se demandaient s’il existe ou non une promenade dans les rues de  Königsberg permettant, à partir d’un point de départ au choix, de passer une et une  seule fois par chaque pont et de revenir à son point de départ, étant entendu qu’on ne  peut traverser la Pregel qu’en passant sur les ponts. 
 
 Afin de répondre à cette question, nous allons représenter cette carte en matérialisant chaque masse terrestre par un point et chaque pont par un arc. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe ponts.jpg)
+![](GraphesIMG/graphe_ponts.jpg)
 
 Dans ce cas très simple, il est assez intuitif de démontrer que la promenade demandée n'existe pas. 
 
@@ -52,7 +49,7 @@ Exemples.
 
 Graphe 1: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\exemple 1 graphe.jpg)
+![](Graphes/IMG/exemple_1_graphe.jpg)
 
 Considérons le graphe ci-dessus:
 
@@ -64,11 +61,11 @@ C'est un graphe non orienté.
 
 Graphe 2:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\exemple 2 grpahe.jpg)
+![](/Graphes/exemple_2_grpahe.jpg)
 
 Graphe 3:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\exemple 3 graphe.jpg)
+![](/Graphes/IMG/exemple_3_graphe.jpg)
 
 Lorsqu'il existe un arc d'un sommet s vers un sommet t, on dit que t est adjacent ou voisin à s. 
 
@@ -116,11 +113,11 @@ Exemple 4:
 
 graphe connexe:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe connexe.jpg)
+![](/Graphes/IMG/graphe_connexe.jpg)
 
 graphe non connexe: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe non connexe.jpg)
+![](/Graphes/graphe_non_connexe.jpg)
 
 #### c. Successeurs et prédécesseurs. 
 
@@ -211,13 +208,13 @@ Aussi appelé BFS (Breath-First Search), le parcours en largeur explore un graph
 
 Cela permet d'explorer systématiquement les chemins entre chaque sommet d'un graphe, par exemple, pour en déterminer les distances relatives. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\parcours largeur.jpg)
+![](/Graphes/IMG/parcours_largeur.jpg)
 
 Remarque: Si le graphe est non connexe, on ne peut pas franchir tous ses sommets, et de même s'il est connexe et orienté, on peut ne pas les rencontrer tous. 
 
 L'algorithme s'implémente avec une file. Nous utiliserons une fonction marquer permettant d'indiquer si un sommet a déjà été visité ou non. 
 
-```
+``` python
 ParcoursLargeur(Graphe G, Sommet s):
 	F = File() # créer une file permettant de visiter le Graphe de proche en proche
 	F.enfiler(s)
@@ -241,7 +238,7 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. On notera sur une même ligne le nœud actuellement visité et le contenu de la file f.
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe1 parcours largeur .jpg)
+![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Faire un tableau des distances entre A et les autres nœuds.
 
@@ -249,7 +246,7 @@ Exemple:
 
 4. Appliquez à nouveau cet algorithme au graphe ci-dessous en prenant A comme nœud initial.
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\grpahe 2 parcours largeur.jpg)
+   ![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
 
 #### b. Parcours en profondeur. 
 
@@ -259,7 +256,7 @@ Cela permet, par exemple, de déterminer rapidement s'il existe un cycle dans un
 
 L'algorithme s'implémente avec une pile. Nous utiliserons une fonction marquer permettant d'indiquer si un sommet a déjà été visité ou non. 
 
-```
+``` python
 explorer(graphe G, sommet s)
 	Sommets=Pile()
 	Sommets.empiler(s)
@@ -274,13 +271,13 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe1 parcours largeur .jpg)
+   ![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\grpahe 2 parcours largeur.jpg)
+   ![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
 
-#### 
+
 
 
 
@@ -288,7 +285,7 @@ Exemple:
 
 Il est parfois nécessaire de trouver un chemin entre deux sommets d'un graphe, voici un algorithme qui permet de faire cette recherche.
 
-```
+``` python
 trouve_chemin(graphe_G, sommet_debut,sommet_fin,chaine=[]):
 	ajouter sommet_debut à chaine
 	si sommet_debut=sommet_fin:
@@ -307,9 +304,9 @@ Exemple:
 
 Appliquer cet algorithme à la recherche d'un chemin entre A et C aux graphes ci-dessous. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe1 parcours largeur .jpg)
+![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\grpahe 2 parcours largeur.jpg)
+![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
 
 
 
@@ -319,7 +316,7 @@ Un **cycle** est un chemin dans un graphe non orienté dont les deux extrémité
 
 Pour pouvoir détecter si un graphe possède au moins un cycle, nous pouvons utiliser l'algorithme suivant:
 
-```
+``` python
 trouve_cycle(graphe G, sommet s):
 	pile = Pile()
 	pile.empiler(s)
@@ -337,9 +334,9 @@ trouve_cycle(graphe G, sommet s):
 
 Exemple: Appliquer cet algorithme aux deux graphes ci-dessous en prenant A comme noeud initial. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\graphe1 parcours largeur .jpg)
+![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\grpahe 2 parcours largeur.jpg)
+![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
 
 ### e. Implémentons. 
 
