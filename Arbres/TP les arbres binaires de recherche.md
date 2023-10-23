@@ -6,7 +6,7 @@
 
    Arbre 1
 
-  ![](/Arbres/IMG/arbre1_TP2.jpg)
+  ![](/Arbres/IMG/arbre_1_TP2.jpg)
 
 ​    Arbre 2: 
 
