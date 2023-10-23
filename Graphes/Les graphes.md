@@ -239,7 +239,7 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. On notera sur une même ligne le nœud actuellement visité et le contenu de la file f.
 
-![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
+![](Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Faire un tableau des distances entre A et les autres nœuds.
 
