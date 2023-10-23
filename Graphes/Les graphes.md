@@ -49,7 +49,7 @@ Exemples.
 
 Graphe 1: 
 
-![](Graphes/IMG/exemple_1_graphe.jpg)
+![](/Graphes/IMG/exemple_1_graphe.jpg)
 
 Considérons le graphe ci-dessus:
 
@@ -239,7 +239,7 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. On notera sur une même ligne le nœud actuellement visité et le contenu de la file f.
 
-![](Graphes/IMG/graphe1_parcours_largeur.jpg)
+![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Faire un tableau des distances entre A et les autres nœuds.
 
@@ -247,7 +247,7 @@ Exemple:
 
 4. Appliquez à nouveau cet algorithme au graphe ci-dessous en prenant A comme nœud initial.
 
-![](Graphes/IMG/grpahe2_parcours_largeur.jpg)
+![](/Graphes/IMG/grpahe2_parcours_largeur.jpg)
 
 #### b. Parcours en profondeur. 
 
@@ -272,11 +272,11 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-  ![](Graphes/IMG/graphe1_parcours_largeur.jpg)
+  ![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-  ![](Graphes/IMG/grpahe2_parcours_largeur.jpg)
+  ![](/Graphes/IMG/grpahe2_parcours_largeur.jpg)
 
 
 
