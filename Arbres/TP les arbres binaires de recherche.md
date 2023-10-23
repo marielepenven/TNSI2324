@@ -6,11 +6,11 @@
 
    Arbre 1
 
-   <img src="D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 1 TP2.jpg" alt="Arbre 1" style="zoom:100%;" />
+  ![](/Arbres/IMG/arbre1_TP2.jpg)
 
 ​    Arbre 2: 
 
-<img src="D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre2 TP 2.png" style="zoom: 50%;" />
+   ![](/Arbres/IMG/arbre2_TP_2.png)
 
 2. Effectuer le parcours infixe de ces deux arbres. Que constatez vous? Comment pouvez vous expliquer ce résultat ? 
 
@@ -50,7 +50,7 @@ class Abr:
 
     a. Appelons arbre1 l'ABR suivant. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 3 TP 2.jpg)
+   ![](/Arbres/IMG/arbre_3TP_2.jpg)
 
    - Quelle est la taille de arbre1? 
    - Combien de comparaisons effectuerait appartient(arbre1,9)? 
