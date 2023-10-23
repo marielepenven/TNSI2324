@@ -3,9 +3,7 @@ class Graphe():
     
     def __init__(self,n):
         '''crée un graphe de taille n, en indiquant par défaut aucun des arcs'''
-
-        self.n=n
-        self.adj = 
+        pass
         
     def ajouter_arc(self,s1,s2):
         '''ajoute un arc allant de s1 à s2 dans la matrice d'adjacence'''
