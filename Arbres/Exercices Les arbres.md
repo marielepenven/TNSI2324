@@ -2,7 +2,7 @@
 
 ### Exercice 1:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre ex1.jpg)
+![](/Arbres/IMG/arbre_ex1.jpg)
 
 1. Quelle est la racine de cet arbre? 
 2. Quelle est la taille de cet arbre? 
@@ -17,7 +17,7 @@
 
 	### Exercice 2: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre ex2.jpg)
+![](/Arbres/IMG/arbre_ex2.jpg)
 
 1. Quelle est la racine de cet arbre? 
 2. Quelles sont les feuilles de cet arbre? 
@@ -35,7 +35,7 @@
 
 |                     | Arbre 1                                                      | Arbre 2                                                      | Arbre 3                                                      |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                     | ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 1 ex 3.jpg) | ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 3 ex 3.jpg) | ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 2 ex 3.jpg) |
+|                     | ![](/Arbres/IMG/arbre_1ex_3.jpg) | ![](/Arbres/IMG/arbre_3ex_3.jpg) | ![](/Arbres/IMG/arbre_2ex_3.jpg) |
 | Parcours en largeur |                                                              |                                                              |                                                              |
 | Parcours préfixe    |                                                              |                                                              |                                                              |
 | Parcours infixe     |                                                              |                                                              |                                                              |
@@ -45,7 +45,7 @@ Effectuer les parcours en largeur, préfixe, infixe et suffixe des arbres préc�
 
 ### Exercice 4:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre ex 4.jpg)
+![](/Arbres/IMG/arbre_ex_4.jpg)
 
 1. Cet arbre est-il un arbre binaire de recherche? Justifiez votre réponse. 
 2. Insérez les valeurs 2, 12 et 18 dans cet arbre afin qu'il soit toujours un arbre binaire de recherche. 
@@ -54,7 +54,7 @@ Effectuer les parcours en largeur, préfixe, infixe et suffixe des arbres préc�
 
 Les premiers travaux concernant l'aide à la décision médicale se sont développés pendant les années soixante-dix parallèlement à avènement de l'informatique dans le secteur médical. L'arbre de décision est une technique décisionnelle fréquemment employée pour rechercher la meilleure stratégie thérapeutique. L'arbre de décision de cet exercice, présenté ci-dessous, est un arbre binaire que l'on nommera `arb_decision`. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\abre ex 5.jpg)
+![](/Arbres/IMG/abre_ex_5.jpg)
 
 Rappels:
 
@@ -76,7 +76,7 @@ Dans l'arbre de décision en présence d'une jaunisse chez un patient:
 
 2. On choisit d'implémenter un arbre binaire à l'aide d'un dictionnaire. 
 
-   ```
+   ``` python
    arbre_vide={}
    arbre={'etiquette':'valeur',
    		'sag':sous_arbre_gauche,
@@ -85,7 +85,7 @@ Dans l'arbre de décision en présence d'une jaunisse chez un patient:
 
    Le code ci-dessous représente un arbre selon le modèle précédent. 
 
-   ```
+   ``` python
    {'etiquette':'a',
    'sag':{'etiquette':'b',
    	'sag':{},
@@ -103,11 +103,11 @@ Dans l'arbre de décision en présence d'une jaunisse chez un patient:
 
 ​	a. A quelle représentation graphique correspond la structure implémentée ci-dessus? 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 2 ex 5.jpg)
+![](/Arbres/IMG/arbre_2ex_5.jpg)
 
 b. Représenter graphiquement l'arbre correspondant au code ci-dessous. 
 
-```
+``` python
 {'etiquette':'H',
 'sag':{'etiquette':'G',
 	'sag':{'etiquette':'E',
@@ -129,7 +129,7 @@ b. Représenter graphiquement l'arbre correspondant au code ci-dessous.
 
 3. La fonction `parcours(arb)`cidessous permet de réaliser le parcours des noeuds d'un arbre binaire `arb`donné en argument. 
 
-```
+``` python
 def parcours(arb):
 	if arb == {}:
 		return None
@@ -141,7 +141,7 @@ def parcours(arb):
 
 a. Donner l'affichage après l'appel de la fonction `parcours`avec l'arbre dont une représentation est ci-dessous. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 3 ex 5.jpg)
+![](/ArbresIMG/arbre_3ex_5.jpg)
 
 b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de l'arbre binaire non vide `arb`passé en argument, ce qui correspond aux maladies possiblement induites par l'arbre de décision. 
 
@@ -149,7 +149,7 @@ b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de
 
    L'appel de cette fonction sur l'arbre de décision `abr_decision`de l'introduction fournti les affichages suivants. 
 
-   ```
+   ``` python
    >>> symptomes(arb_decision,"anémie hémolytique")
    symptômes de anémie hémolytique
    splénomégalie
@@ -163,7 +163,7 @@ b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de
 
    
 
-   ```
+   ``` python
    arbre={'etiquette':'valeur',
    		'surChemin':False,
    		'sag':sous_arbre_gauche,
@@ -174,7 +174,7 @@ b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de
 
    
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\code ex 5.jpg)
+![](/Arbres/IMG/code_ex_5.jpg)
 
 ### Exercice 6: Bac
 
@@ -201,7 +201,7 @@ Ainsi, pour tout noeud `A`, si `fils_gauche(A)`et `fils_droit(A)`ne sont pas `Nu
 
 Par exemple, l'arbre binaire suivant `A1`est un arbre binaire de recherche:
 
- ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 1 ex 6.jpg)
+ ![](/Arbres/IMG/arbre_1ex_6.jpg)
 
 1. a. Recopier et compléter l'arbre binaire de recherche précédent en insérant successivement dans cet ordre les noms suivants:
 
@@ -215,7 +215,7 @@ On définit ici l'équilibre d'un arbre binaire: il s'agit d'un nombre entier po
 
 Par exemple, si on considère l'arbre suivant que l'on nommera `A2`: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 2 ex 6.jpg)
+![](/Arbres/IMG/arbre_2ex_6.jpg)
 
 Son équilibre vaut -1 car sa hauteur de son sous-arbre gauche vaut 1, la hauteur de son sous-arbre droit vaut 2 et 1-2=-1. 
 
@@ -229,7 +229,7 @@ L'arbre précédent est donc équilibré.
 
    On donne la fonction suivante
 
-   ```
+   ``` python
    Fonction mystere(ABR,t):
    	SI ABR = NULL:
    		RENVOYER FAUX
@@ -255,11 +255,11 @@ un arbre de compétition est soit l'arbre vide noté $\emptyset$, soit un triple
 
 On représente graphiquement un arbre de compétition de la façon suivante:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 1 ex 7.jpg)
+![](/Arbres/IMG/arbre_1ex_7.jpg)
 
 Pour alléger la représentation d'un arbre de compétition, on ne notera pas les arbres vides, l'arbre précédent sera donc représenté par l'arbre `A`suivant:
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 2 ex 7.jpg)
+![](/Arbres/IMG/arbre_2ex_7.jpg)
 
 Cet arbre se lit de la façon suivante:
 
@@ -279,13 +279,13 @@ Les quatre fonctions suivantes pourront utilisées:
 
   Exemple: en reprenant l'exemple d'arbre de compétition présenté ci-dessus, `gauche(A)`vaut l'arbre représenté graphiquement ci-après:
 
-  ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 4 ex 7.jpg)
+  ![](/Arbres/IMG/arbre_4ex_7.jpg)
 
 - La fonction `droit`qui prend en argument un arbre de compétition `arb`et renvoie son sous-arbre droit. 
 
   Exemple: en reprenant l'exemple d'arbre de compétition présenté ci-dessus, `droit(A)`vaut l'arbre représenté graphiquement ci-dessous:
 
-  ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 5 ex 7.jpg)
+  ![](/Arbres/IMG/arbre_5ex_7.jpg)
 
 - La fonction `est_vide`qui prend en argument un arbre de compétition et renvoie `True` si l'arbre est vide et `False`sinon. 
 
@@ -295,7 +295,7 @@ Pour toutes les questions de l'exercice, on suppose que tous les joueurs d'une m
 
 1. a. On considère l'arbre de compétition `B`suivant: 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 6 ex 7.jpg)
+   ![](/Arbres/IMG/arbre_6ex_7.jpg)
 
    Indiquer la racine de cet arbre puis donner l'ensemble des valeurs des feuilles de cet arbre. 
 
@@ -319,7 +319,7 @@ Pour toutes les questions de l'exercice, on suppose que tous les joueurs d'une m
 
    a. Expliquer pourquoi les instructions suivantes renvoient une valeur erronée. On pourra pour cela identifier le noeud de l'arbre qui provoque une erreur. 
 
-   ```
+   ``` python
    def nombre_matchs(arb,nom):
    	"""arbre_competition, str -> int """
    	return occurences(arb,nom)
@@ -337,4 +337,4 @@ Pour toutes les questions de l'exercice, on suppose que tous les joueurs d'une m
 
    
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\code ex 7.jpg)
+![](/Arbres/IMG/code_ex_7.jpg)
