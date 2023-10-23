@@ -141,7 +141,7 @@ Une matrice est un tableau en deux dimensions dans lequel sont contenus des nomb
 
 Exemple:
 
-$\begin{pmatrix}1 & 2 & 3 \\4 & 5 & 6 \\7 & 8 & 9\end{pmatrix}$
+$\begin{pmatrix}1&2&3\\4&5&6\\7&8&9\end{pmatrix}$
 
 
 Nous noterons` mat[i][j]`l'élément de la i-éme ligne et de la j-iéme colonne de cette matrice,
