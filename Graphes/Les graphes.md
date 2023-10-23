@@ -11,7 +11,7 @@ Les habitants se demandaient s’il existe ou non une promenade dans les rues de
 
 Afin de répondre à cette question, nous allons représenter cette carte en matérialisant chaque masse terrestre par un point et chaque pont par un arc. 
 
-![](GraphesIMG/graphe_ponts.jpg)
+![](Graphes/IMG/graphe_ponts.jpg)
 
 Dans ce cas très simple, il est assez intuitif de démontrer que la promenade demandée n'existe pas. 
 
@@ -61,7 +61,7 @@ C'est un graphe non orienté.
 
 Graphe 2:
 
-![](/Graphes/exemple_2_grpahe.jpg)
+![](/Graphes/IMG/exemple_2_grpahe.jpg)
 
 Graphe 3:
 
@@ -117,7 +117,7 @@ graphe connexe:
 
 graphe non connexe: 
 
-![](/Graphes/graphe_non_connexe.jpg)
+![](/Graphes/IMG/graphe_non_connexe.jpg)
 
 #### c. Successeurs et prédécesseurs. 
 
