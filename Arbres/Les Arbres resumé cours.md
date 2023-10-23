@@ -7,11 +7,11 @@
 Un **arbre** est une structure de données hiérarchique.
 Il est constitué de nœuds, reliés entre eux par des arêtes selon un relation père fils.  
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\pere-fils.jpg)
+![](/Arbres/IMG/pere-fils.jpg)
 
 On distingue trois types de nœuds :
 
-- la **racine ** d'un arbre est l'unique nœud ne possédant pas de parent. On la place en haut de l'arbre. 
+- la **racine** d'un arbre est l'unique nœud ne possédant pas de parent. On la place en haut de l'arbre. 
 - les **feuilles** (ou nœuds externes), éléments ne possédant pas de fils dans l'arbre,
 - les **nœuds internes** , éléments possédant au moins un fils. 
 
@@ -29,7 +29,7 @@ Si un arbre est vide, sa hauteur est -1.
 
 Exemple: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre binaire.jpg)
+![](/Arbres/IMG/arbre_binaire.jpg)
 
 La racine de cet arbre est A. 
 Cet arbre a 4 feuilles. 
@@ -49,19 +49,19 @@ Exemples:
 
 Cet arbre n'est pas un arbre binaire. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre non binaure.jpg)
+![](/Arbres/IMG/arbre_non_binaure.jpg)
 
 
 
 Cet arbre est un arbre binaire. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre binaire.jpg)
+![](/Arbres/IMG/arbre_binaire.jpg)
 
 ### b. Sous arbres. 
 
 Chaque nœud d'un arbre binaire ne pouvant pas avoir plus de fils, il est possible de séparer le « dessous » de chaque nœud en deux sous-arbres (éventuellement vides) : le sous-arbre gauche et le sous-arbre droit. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\sous arbre.jpg)
+![](/Arbres/IMG/sous_arbre.jpg)
 
 Les deux sous-arbres représentés ici sont les sous-arbres du nœud racine T. 
 Le nœud O admet comme sous-arbre gauche le nœud H et comme sous-arbre droit le nœud N. 
@@ -73,20 +73,20 @@ Les feuilles P, H et N ont pour sous-arbre gauche et pour sous-arbre droit l'arb
 
 Arbre dégénéré (filiforme ou peigne) : tous les nœuds internes n'ont qu'un seul fils, donc l'arbre n'a qu'une feuille.
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\peigne.jpg)
+![](/Arbres/IMG/peigne.jpg)
 
 #### 2. L'arbre équilibré. 
 
 Arbre équilibré : les hauteurs de ses sous arbres différent au plus d'une unité et sont eux-mêmes des arbres équilibrés.
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre équilibré.jpg)
+![](/Arbres/IMG/arbre_équilibré.jpg)
 
 #### 3. L'arbre parfait. 
 
 Arbre parfait : arbre binaire dans lequel tous les nœuds possèdent zéro ou deux fils et toutes les feuilles sont à la même profondeur. 
 Tous les niveaux sont donc remplis. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre parfait.jpg)
+![](/Arbres/IMG/arbre_parfait.jpg)
 
 ### d. Lien entre la taille et la hauteur. 
 
@@ -109,7 +109,7 @@ Un parcours en largeur visite les nœuds d'un arbre niveau par niveau : le nœud
 
 Exemple: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\parcours.jpg)
+![](/Arbres/IMG/parcours.jpg)
 
 Dans notre exemple, cela donne :
 I-D-E-B-K-Z
@@ -126,7 +126,7 @@ Si le fils fauche est également père, on visitera d'abord son propre fils gauc
 
 Exemple :
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\parcours.jpg)
+![](/Arbres/IMG/parcours.jpg)
 
 Dans notre exemple, cela donne:
 
@@ -138,7 +138,7 @@ Dans notre exemple, cela donne:
 
 Exemple :
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\parcours.jpg)
+![](/Arbres/IMG/parcours.jpg)
 
 Dans notre exemple, cela donne B-D-I-K-E-Z
 
@@ -148,7 +148,7 @@ Dans notre exemple, cela donne B-D-I-K-E-Z
 
 Exemple: 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\parcours.jpg)
+![](/Arbres/MIG/parcours.jpg)
 
 Dans notre exemple, cela donne B-D-K-Z-E-I
 
@@ -160,8 +160,8 @@ Exemples:
 
 Cet arbre est un arbre binaire de recherche. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\abr.jpg)
+![](/Arbres/IMG/abr.jpg)
 
 Cet arbre n'est pas un arbre binaire de recherche. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\non abr.jpg)
+![](/Arbres/IMG/non_abr.jpg)
