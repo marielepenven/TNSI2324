@@ -148,7 +148,7 @@ Dans notre exemple, cela donne B-D-I-K-E-Z
 
 Exemple: 
 
-![](/Arbres/MIG/parcours.jpg)
+![](/Arbres/IMG/parcours.jpg)
 
 Dans notre exemple, cela donne B-D-K-Z-E-I
 
