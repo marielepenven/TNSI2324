@@ -92,9 +92,9 @@ Tous les niveaux sont donc remplis.
 
 Si N désigne la taille d'un arbre binaire et h désigne sa hauteur, alors ces deux quantités sont contraintes par l'inégalité suivante :
 
-$$
-h \leq N \leq 2^h-1
-$$
+$h \leq N \leq 2^h-1$
+
+
 La borne gauche correspond au cas de l'arbre dégénéré. 
 La borne droite correspond au cas de l'arbre parfait. 
 
