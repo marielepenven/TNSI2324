@@ -247,7 +247,7 @@ Exemple:
 
 4. Appliquez à nouveau cet algorithme au graphe ci-dessous en prenant A comme nœud initial.
 
-   ![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
+![](Graphes/IMG/grpahe2_parcours_largeur.jpg)
 
 #### b. Parcours en profondeur. 
 
