@@ -140,7 +140,8 @@ Exemple : Donner l'ensemble des successeurs et des prédecesseurs pour le graphe
 Une matrice est un tableau en deux dimensions dans lequel sont contenus des nombres.
 
 Exemple: 
-$\begin{pmatrix}
+$
+\begin{pmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9
