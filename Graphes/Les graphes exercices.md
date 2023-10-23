@@ -23,7 +23,7 @@ Régle :
 
 Les joueurs sélectionnés sont les joueurs ayant obtenu le plus grand nombre de points. On donne le résultat sous la forme d'un graphe orienté. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\ex 2 .jpg)
+![](/GraphesIMG/ex2.jpg)
 
 Le sens de l'arc A → B indique que le joueur A a battu le joueur B. 
 
@@ -93,7 +93,7 @@ Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
 
 Exercice 5 : Écrire la matrice d'adjacence du graphe suivant :
 
-![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\graphes\ex 4.jpg)
+![](/Graphes/IMG/ex4.jpg)
 
 
 
