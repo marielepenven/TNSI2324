@@ -52,7 +52,7 @@ Nous considérerons qu'un arbre binaire est constitué de noeuds.
 
 2. Comment pouvez vous implémenter l'arbre suivant ?
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 1 TP .jpg)
+   ![](/Arbres/IMG/arbre_1_TP.jpg)
 
 3. En utilisant les algorithmes que vous avez écrits dans la partie précédente, implémenter des fonctions permettant de déterminer la taille, la hauteur ainsi de réaliser les parcours préfixe, infixe et suffixe des arbres. 
 
@@ -76,7 +76,7 @@ arbre= (racine,sag,sad)
 
 2. Comment pouvez implémenter l'arbre suivant:
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\graphes et arbres\arbres\arbre 2 TP.jpg)
+   ![](/Arbres/IMG/arbre_2TP.jpg)
 
 3. En utilisant les algorithmes que vous avez écrits dans la partie 1, implémenter des fonctions permettant de déterminer la taille, la hauteur ainsi de réaliser les parcours préfixe, infixe et suffixe des arbres. 
 
