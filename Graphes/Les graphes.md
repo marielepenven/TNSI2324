@@ -49,7 +49,7 @@ Exemples.
 
 Graphe 1: 
 
-![](/Graphes/IMG/exemple_1_graphe.jpg)
+![](Graphes/IMG/exemple_1_graphe.jpg)
 
 Considérons le graphe ci-dessus:
 
