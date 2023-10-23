@@ -272,11 +272,11 @@ Exemple:
 
 1. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-   ![](/Graphes/IMG/graphe1_parcours_largeur.jpg)
+  ![](Graphes/IMG/graphe1_parcours_largeur.jpg)
 
 2. Appliquez cet algorithme au graphe ci-dessous en partant de A. 
 
-   ![](/Graphes/IMG/grpahe_2_parcours_largeur.jpg)
+  ![](Graphes/IMG/grpahe2_parcours_largeur.jpg)
 
 
 
