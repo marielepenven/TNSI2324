@@ -67,7 +67,7 @@ Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
    
 
 2. $$
-   M_2= \begin{pmatrix}
+   M_2 = \begin{pmatrix}
    0 & 1 & 0 & 0 & 0 \\
    0 & 0 & 1 & 1 & 1 \\
    0 & 1 & 0 & 1 & 0 \\
@@ -82,7 +82,7 @@ Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
    M_3 = \begin{pmatrix}
    0 & 3 & 4 & 0 \\
    1 & 0 & 2 & 0 \\
-   3 & 4 & 0 & 1\\
+   3 & 4 & 0 & 1 \\
    0 & 0 & 1 & 0
    \end{pmatrix}
    $$
