@@ -23,7 +23,7 @@ Régle :
 
 Les joueurs sélectionnés sont les joueurs ayant obtenu le plus grand nombre de points. On donne le résultat sous la forme d'un graphe orienté. 
 
-![](/GraphesIMG/ex2.jpg)
+![](/Graphes/IMG/ex2.jpg)
 
 Le sens de l'arc A → B indique que le joueur A a battu le joueur B. 
 
