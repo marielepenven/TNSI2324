@@ -141,8 +141,7 @@ Une matrice est un tableau en deux dimensions dans lequel sont contenus des nomb
 
 Exemple:
 
-$
-\begin{pmatrix}
+$\begin{pmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9
