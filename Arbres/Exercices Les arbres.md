@@ -141,7 +141,7 @@ def parcours(arb):
 
 a. Donner l'affichage après l'appel de la fonction `parcours`avec l'arbre dont une représentation est ci-dessous. 
 
-![](/ArbresIMG/arbre_3ex_5.jpg)
+![](/Arbres/IMG/arbre_3ex_5.jpg)
 
 b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de l'arbre binaire non vide `arb`passé en argument, ce qui correspond aux maladies possiblement induites par l'arbre de décision. 
 
