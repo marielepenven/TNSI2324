@@ -55,7 +55,7 @@ Exercice 3 : On considère un groupe de dix personnes présentes sur un réseau 
 
 Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
 
-1. $$
+ $$
    M1 = \begin{pmatrix}
    0 & 0 & 1 & 1 \\
    0 & 0 & 1 & 0 \\
@@ -65,8 +65,7 @@ Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
    $$
 
    
-
-2. $$
+$$
    M_2 = \begin{pmatrix}
    0 & 1 & 0 & 0 & 0 \\
    0 & 0 & 1 & 1 & 1 \\
@@ -77,8 +76,7 @@ Exercice 4 : Tracer les graphes associés aux matrices d'adjacences suivantes :
    $$
 
    
-
-3. $$
+ $$
    M_3 = \begin{pmatrix}
    0 & 3 & 4 & 0 \\
    1 & 0 & 2 & 0 \\
