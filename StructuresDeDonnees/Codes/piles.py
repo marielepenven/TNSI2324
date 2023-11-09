@@ -27,17 +27,7 @@ class Pile_list:
         '''
         return self.ma_pile == []
     
-    def empiler(self,x):
-        '''empile l'élèment x dans la pile'''
-        self.ma_pile.append(x)
     
-    def depiler(self):
-        '''depile un element de la pile'''
-        self.ma_pile.pop()
-        
-    def element_depile(self):
-        '''renvoie l'élèment dépiler de la pile'''
-        return self.ma_pile.pop()
         
     def __len__(self):
         '''affiche le nombre d'élèments contenus dans la pile'''
