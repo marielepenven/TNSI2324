@@ -51,17 +51,10 @@ class Pile_list:
         return contenu
     
     def depiler_entierement(self):
-        for i in range(len(self)):
-            print(self.depiler())
-        return self
+        pass
     
     def inverse_pile(self):
-        retourne = []
-        for i in range(len(self)):
-            dessus = self.element_depile()
-            retourne.append(dessus)
-        self.ma_pile = retourne
-        return self
+        pass
     
 if __name__ == "__main__":
     import doctest
