@@ -80,7 +80,7 @@ La méthode `est_triee`ci-dessous renvoie `True`si, en dépilant tous les élém
 ```
 1. def est_triee(self):
 2.    if not self.est_vide():
-3. 	  	 e1 = self.depiler()
+3.      e1 = self.depiler()
 4.    while not self.est_vide():
 5.      e2 = self.depiler()
 6.      if e1 ... e2:
