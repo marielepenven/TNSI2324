@@ -51,7 +51,7 @@ On considère l’expression (7-8)∗6∗(10+3).
 
 La classe `Pile`dans cet exercice est implémentée en utilisant des listes Python et propose quatre éléments d'interface:
 
-- un constructeur qui permet de créer une pile vide, représentée par [];
+- un constructeur qui permet de créer une pile vide, représentée par [ ];
 - la méthode `est_vide()`qui renvoie `True`si l'objet est une plie ne contenant aucun élément et `False` sinon;
 - la méthode `empiler`qui prend un objet quelconque en paramètre et ajoute cet objet au somme de la pile. Dans la représentation de la pile dans la console, cet objet apparaît à droite des autres éléments de la pile;
 - la méthode `depiler` qui renvoie l'objet présent au sommet de la pile et le retire de la pile. 
