@@ -104,7 +104,7 @@ La méthode `est_triee`ci-dessous renvoie `True`si, en dépilant tous les élém
    ```
    1. def depileMax(self):
    2.     assert not self.est_vide(), "Pile vide"
-   3. 	   q = Pile()
+   3.     q = Pile()
    4.     maxi = self.depiler()
    5.     while not self.est_vide() :
    6.        elt = self.depiler()
