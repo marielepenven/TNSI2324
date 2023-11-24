@@ -15,7 +15,7 @@ On suppose que cette dernière règle est également respectée dans la configur
 
 1. Aller résoudre le casse-tête des tours de Hanoi avec 3,4 et 5 disques. 
 
-   [](http://championmath.free.fr/tourhanoi.htm)
+   [les tours de Hanoi](http://championmath.free.fr/tourhanoi.htm)
 
 L'objectif de ce projet est de coder une résolution du casse-tête des tours de Hanoi. 
 
