@@ -38,7 +38,7 @@ Par exemple, `nombre_de_bits(255)` doit renvoyer 8.
 
  Écrire une fonction récursive `pgcd(a,b)` qui renvoie le pgcd de deux nombres entiers positifs. 
 
-Par exemple, `pgcd(84,60)=5`
+Par exemple, `pgcd(84,60)=12`
 
 
 
