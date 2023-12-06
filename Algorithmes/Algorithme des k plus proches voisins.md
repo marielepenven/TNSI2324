@@ -34,9 +34,9 @@ En 1936, Edgar Anderson a collecté des données sur trois espèces d'iris : « 
 
 ![](/Algorithmes/IMG/iris_setose.png)
 
-![](/Algorithmes/iris_virginica.png)
+![](/Algorithmes/IMG/iris_virginica.png)
 
-![](/Algorithme/iris_virginica.png)
+![](/Algorithmes/IMG/iris_virginica.png)
 
 Pour chaque iris étudié, Anderson a mesuré (en cm) : 
 
@@ -97,7 +97,7 @@ En voici la méthode dans notre exemple:
 
 En prenant k=3, nous obtenons: 
 
-![](E:\lycee\T NSI\algorithme\representation_iris_cercle.png)
+![](/Algorithmes/IMG/representation_iris_cercle.png)
 
 Les 3 plus proches voisins sont à l'intérieur du cercle  : nous avons deux "iris 	setosa" (point rouge) et un "iris versicolor" (point  vert). D'après l'algorithme des "k plus proches voisins", notre "iris mystère" appartient à l'espèce "setosa". 
 
