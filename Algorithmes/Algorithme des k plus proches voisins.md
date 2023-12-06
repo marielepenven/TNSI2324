@@ -32,11 +32,11 @@ Nous allons travailler sur un exemple connu dans le monde du machine learning : 
 
 En 1936, Edgar Anderson a collecté des données sur trois espèces d'iris : « iris setosa », « iris virginica » et « iris versicolor ».  
 
-![](E:\lycee\T NSI\algorithme\iris_setose.png)
+![](/Algorithmes/IMG/iris_setose.png)
 
-![](E:\lycee\T NSI\algorithme\iris_virginica.png)
+![](/Algorithmes/iris_virginica.png)
 
-![](E:\lycee\T NSI\algorithme\iris_virginica.png)
+![](/Algorithme/iris_virginica.png)
 
 Pour chaque iris étudié, Anderson a mesuré (en cm) : 
 
@@ -57,7 +57,7 @@ En résumé, vous trouverez dans ce fichier :
 - ​	la largeur des pétales  
 - ​	l'espèce de l'iris (au lieu d'utiliser les noms des espèces, on utilisera des chiffres : 0 pour "iris setosa", 1 pour "iris versicolor" et 2 pour "iris virginica")  
 
-![](E:\lycee\T NSI\algorithme\extrait_donnees.png)
+![](/Algorithmes/IMG/extrait_donnees.png)
 
 Vous devez savoir que ce jeu de données a, aujourd'hui, un intérêt purement pédagogique. En effet, il est exclusivement utilisé par des personnes désirant s'initier aux algorithmes de machine learning.  Avant d'entrer dans le vif du sujet (algorithme knn), nous allons chercher à obtenir une représentation graphique des données contenues dans le fichier iris.csv. 
 
@@ -71,7 +71,7 @@ Vous utiliserez la fonction  DictReader du module csv pour ouvrir le fichier iri
 
 Vous devez obtenir un graphique de ce type. 
 
-![](E:\lycee\T NSI\algorithme\representation_iris.png)
+![](/Algorithmes/IMG/representation_iris.png)
 
 Nous obtenons des "nuages" de points, on remarque ces points sont regroupés par espèces 	d'iris (pour "iris virginica" et "iris versicolor", les points ont un peu tendance à se mélanger).
 
