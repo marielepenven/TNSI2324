@@ -267,7 +267,7 @@ Travaillons sur un exemple:
 
 Soit le réseau suivant:
 
-![](/Reseaux/IMG/RIP_img1.jpg)
+![](/Reseaux/IMG/RIPimg1.jpg)
 
 Au début du protocole, les tables des routeurs R1 et R3 sont initialisées avec les informations concernant leurs voisins immédiats, à savoir les adresses des sous-réseaux sur lesquels ils sont directement connectés. 
 
