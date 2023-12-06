@@ -30,7 +30,7 @@ Un extrait de l'architecture réseau d'un centre hospitalier est présenté sur 
 
 Dans ce réseau, R0, R1, R2, R3, R4 et R 5 représentent des routeurs. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 1 img 1.jpg)
+![](/Reseaux/IMG/ex1img1.jpg)
 
 Les adresses et les masques réseau sont indiqués à côté de chacune des connexions sous la forme X1.X2.X3.X4/n où X1, X2, X3 et X4 représentent les 4 octets de l'adresse IP et n le nombre de bits à 1 dans le masque. On rappelle qu'un masque est constitué de 32 bits dont les n premiers bits sont à 1 et les autres à 0. Celui-ci définit avec l'adresse réseau une plage d'adresses IP dont:
 
@@ -79,11 +79,11 @@ Le serveur R1 est reconnecté au réseau et est fonctionnel.
 
 Maintenant, pour tenir compte du débit des liaisons, l'administrateur réseau décide d'étudier le protocole OSPF (distance liée au coûts des liaisons) pour effectuer le routage.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex1 img 2.jpg)
+![](/Reseaux/IMG/ex1img2.jpg)
 
 Les bandes passantes (BP) ainsi que le coût des différentes liaisons sont données dans les tableaux suivants:
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 1 img 3.jpg)
+![](/Reseaux/IMG/ex1img3.jpg)
 
 Pour calculer le coût d'une liaison, on utilise la formule:
 
@@ -104,11 +104,11 @@ Exemple de calcul du coût entre R1 et R2: $\frac{10^9}{10\times10^9}=0.1$ donc 
 
 On considère le réseau suivant composé de sept routeurs.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 2 img 1.jpg)
+![](/Reseaux/IMG/ex2img1.jpg)
 
 On donne les tables de routage préalablement construites ci-dessous avec le protocole RIP (Routing Information Protocole). Le protocole RIP permet de construire les tables de routages des différents routeurs, en indiquant pour chaque routeur, la distance, en nombre de sauts, qui le sépare d'un autre routeur. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex2 img 2.jpg)
+![](/Reseaux/IMG/ex2img2.jpg)
 
 1. Le routeur R2 doit envoyer un paquet de données au routeur R7 qui en accuse réception. 
 
@@ -149,7 +149,7 @@ On donne les tables de routage préalablement construites ci-dessous avec le pro
 
    b. On précise sur le graphe ci-dessous les types de liaison dans notre réseau:
 
-   ![	](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 2 img 3.jpg)
+   ![	](/Reseaux/IMG/ex2img3.jpg)
 
 ​				Le coût d'une chemin est la somme des coûts des liaisons rencontrées. Donner, 				en justifiant, le chemin le moins coûteux pour relier R2 à R3. Préciser le coût. 
 
@@ -169,7 +169,7 @@ On donne les tables de routage préalablement construites ci-dessous avec le pro
 
 2. On rappelle que le protocole RIP cherche à minimiser le nombre de routeurs  traversés (qui correspond à la métrique). On donne les tables de routage d’un  réseau informatique composé de 5 routeurs (appelés A, B, C, D et E), chacun  associé directement à un réseau du même nom obtenues avec le protocole RIP :
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 3 img 1.jpg)
+   ![](/Reseaux/IMG/ex3img1.jpg)
 
 ​		a. Donner la liste des routeurs avec lesquels le routeur A est directement  relié.
 
@@ -187,7 +187,7 @@ On donne les tables de routage préalablement construites ci-dessous avec le pro
 
 4. Voici la représentation d'un réseau et la table de routage incompléte du routeur F obtenue avec le protocole OSPF:
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\ex 3 img 2.jpg)
+   ![](/Reseaux/IMG/ex3img2.jpg)
 
 ​	Les nombres présents sur les liaisons représentent les coûts des routes avec le  			protocole OSPF.  
 
