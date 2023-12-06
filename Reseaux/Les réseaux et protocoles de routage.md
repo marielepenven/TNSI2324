@@ -36,7 +36,6 @@ https://www.youtube.com/watch?v=CIhalbnBgA4)
 
 Le modèle OSI est une norme qui préconise comment les ordinateurs devraient communiquer entre eux. Il est découpé en sept morceaux appelés couches qui ont chacune un rôle défini. 
 
-Compléter le tableau ci-dessous illustrant le modèle OSI. 
 
 | Couche                | Role                                                         |
 | --------------------- | ------------------------------------------------------------ |
@@ -53,25 +52,6 @@ Compléter le tableau ci-dessous illustrant le modèle OSI.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### 2. Le protocole TCP/IP. 
 
 TCP/IP est un protocole de liaison de données utilisé sur Internet pour permettre aux ordinateurs et autres appareils d’envoyer et de recevoir des données. L’acronyme TCP/IP signifie Transmission Control Protocol/Internet Protocol. Il permet aux appareils connectés à Internet de communiquer entre eux via les réseaux.
@@ -82,16 +62,16 @@ Pour s’assurer que chaque communication arrive intacte jusqu’à son destinat
 
 Lorsqu’un message est décomposé en paquets, les différents paquets qui le composent peuvent prendre des voies différentes si l’un des itinéraires est encombré. C’est un peu comme envoyer par courrier plusieurs cartes d’anniversaire à la même adresse. Toutes les cartes commencent leurs parcours au même endroit, c’est-à-dire chez vous, mais vous pouvez déposer chaque carte dans une nouvelle boîte aux lettres et elles peuvent donc toutes prendre un chemin différent pour arriver jusqu’à l’adresse du destinataire.
 
-Compléter le tableau suivant avec un dessin illustrant chaque étape (vous pouvez si besoin grouper deux étapes). 
+
 
 | Etape:                                                       | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------Schéma------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Etape 1**:<br/> Le protocole TCP découpe l’information à transmettre en paquets de données. |                                                              |
-| **Étape 2 :**<br/>Le protocole IP prend ensuite le relais et « encapsule » ces paquets de données : ce protocole indique la destination des données (datagrammes) grâce à un numéro (adresse IP). | ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\TCP IP img1.jpg)      |
-| **Étape 3 :**<br/>Le protocole TCP s’occupe de transférer les paquets de données encapsulés (paquets IP) vers la machine réceptrice. | ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\TPC IP img 2.jpg)     |
-| **Étape 4 :**<br/>Une fois que les paquets de données sont arrivées à destination, ils sont « désencapsulés » par le protocole TCP, de manière à récupérer les données TCP initialement émises. | ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\TCP IP img3.jpg)      |
+| **Étape 2 :**<br/>Le protocole IP prend ensuite le relais et « encapsule » ces paquets de données : ce protocole indique la destination des données (datagrammes) grâce à un numéro (adresse IP). | ![](/Reseaux/IMG/TCP_I_img1.jpg)      |
+| **Étape 3 :**<br/>Le protocole TCP s’occupe de transférer les paquets de données encapsulés (paquets IP) vers la machine réceptrice. | ![](/Reseaux/IMG/TPC_IP_img2.jpg)     |
+| **Étape 4 :**<br/>Une fois que les paquets de données sont arrivées à destination, ils sont « désencapsulés » par le protocole TCP, de manière à récupérer les données TCP initialement émises. | ![](/Reseaux/IMG/TCP_IP_img3.jpg)      |
 | **Étape 5 :**<br/>La machine réceptrice récupère les données TCP contenues dans les paquets ; ces dernières sont désormais dépourvues d’enveloppe. Les données contenues dans ces paquets peuvent être utilisées par la machine réceptrice. |                                                              |
-| **Étape 6 :**<br/>Lorsque la machine réceptrice reçoit un paquet de données en provenance de la machine émettrice, la machine réceptrice envoie un accusé de réception à la machine émettrice. | ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\TCP IP img4.jpg)      |
+| **Étape 6 :**<br/>Lorsque la machine réceptrice reçoit un paquet de données en provenance de la machine émettrice, la machine réceptrice envoie un accusé de réception à la machine émettrice. | ![](/Reseaux/IMG/TCP_IP_img4.jpg)      |
 
 
 
@@ -105,13 +85,13 @@ Il existe des adresses IP de version 4sur 32 bits, et de version 6 sur 128 bits.
 
 La version 4 est actuellement la plus utilisée : elle est généralement représentée en notation décimale avec quatre nombres compris entre 0 et 255, séparés par des points, ce qui donne par exemple « 181.174.87.53 ».
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\adresse IPV4.jpg)
+![](/Reseaux/IMG/adresse_IPV4.jpg)
 
 Quel est le nombre d'adresse IP v4 disponible? Pourquoi est ce que cela pose un problème? 
 
 Une **adresse IPv6** est une adresse IP de la version 6 du protocole internet (IPv6). IPv6 a été principalement développé en réponse à la demande d'adresses qu'IPv4 ne permettait plus de contenter. Une adresse IPv6 contient 128 bits , contre 32 bits pour IPv4. On dispose ainsi de $2^{128} ≈ 3,4 × 10^{38}$ d'adresses IPv6, contre $2^{32} ≈ 4$ milliards d'adresses IPv4.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\adresse IPV6.jpg)
+![](/Reseaux/IMG/adresse_IPV6.jpg)
 
 #### b. Masque de sous-réseau. 
 
@@ -126,13 +106,13 @@ Les masques de sous-réseau se note de deux façons différentes:
 
 - la notation classique qui couple l'adresse IP et son masque de sous-réseau associé. 
 
-  ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\masque1.png)
+  ![](/Reseaux/IMG/masque1.png)
 
 
 
 - la notation CIDR avec un slash qui associe également l'adresse IP d'un hôte à son masque de sous-réseau mais on se contente cette fois de spécifier le nombre de bits à 1 en partant de la gauche (bits de poids fort). 
 
-  ![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\masque2.png)
+  ![](/Reseaux/IMG/masque2.png)
 
 Nous distinguerons 4 modes de communication: 
 
@@ -157,7 +137,7 @@ Une **carte réseau** est matérialisée par un ensemble de composants électron
 
 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\carte réseau.jpg)
+![](/Reseaux/IMG/carte_reseau.jpg)
 
 
 
@@ -169,7 +149,7 @@ Un switch, un commutateur ou encore un commutateur réseau en français, est un 
 
 Le switch est chargé d’analyser les trames qui arrivent sur les ports d’entrée. Il opère une filtration des données afin de les orienter vers le bon port. Il a donc une double fonction de filtrage et de connectivité. Il sert de véhicule au transport de trame, comme peut également le faire le routage. Il peut au delà de le faire physiquement, créer également des circuits virtuels.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\switch.jpg)
+![](/Reseaux/IMG/switch.jpg)
 
 ### c. Le modem. 
 
@@ -183,7 +163,7 @@ Le routeur dispose pour cela d'une  **table de routage** qui lui permet de chois
 
 Un routeur est constitué de deux interfaces ou passerelles qui lui permettront de se connecter aux deux  réseaux. Chaque interface possède une adresse adresses IP dans chacun des deux réseaux. Certains routeurs intègrent un point d’accès WiFi ce qui permet la connexion au réseau d’équipements  sans-fil.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\routeur.jpg)
+![](Reseaux/IMG/routeur.jpg)
 
 ### e. La box. 
 
@@ -207,7 +187,7 @@ Chaque routeur possède une table de routage. Une table de routage peut être vu
 
 Un routeur possède plusieurs interfaces réseau (eth0, eth1, ...), par lequel il est connecté à des sous-réseaux (autre routeur, réseau local, ...) au sein desquels il possède une adresse IP.
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\table de routage.png)
+![](/Reseaux/IMG/table_de_routage.png)
 
 
 
@@ -287,7 +267,7 @@ Travaillons sur un exemple:
 
 Soit le réseau suivant:
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\RIP img1.jpg)
+![](/Reseaux/IMG/RIP_img1.jpg)
 
 Au début du protocole, les tables des routeurs R1 et R3 sont initialisées avec les informations concernant leurs voisins immédiats, à savoir les adresses des sous-réseaux sur lesquels ils sont directement connectés. 
 
@@ -427,7 +407,7 @@ Le protocole OSPF est donc bien plus performant que RIP mais plus complexe d'uti
 
 #### 3. Exemple. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Réseaux\opsf exple.jpg)
+![](/Reseaux/IMG/opsf_exple.jpg)
 
 En vous basant sur le protocole OSPF (métrique = somme des coûts), déterminez la table de routage du routeur A
 
