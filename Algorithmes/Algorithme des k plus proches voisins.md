@@ -4,7 +4,7 @@
 
 Le problème est le suivant: ce fruit est-il une clémentine ou une orange ? 
 
-![](E:\lycee\T NSI\algorithme\orange_clementine.png)
+![](/Algorithmes/IMG/orange_clementine.png)
 
 La question est de pouvoir classer un objet en en connaissant quelques caractéristiques. Nous utiliserons, l'algorithme des k plus proches voisins (k-nn en anglais). 
 
