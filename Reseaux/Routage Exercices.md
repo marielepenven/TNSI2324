@@ -187,7 +187,7 @@ On donne les tables de routage préalablement construites ci-dessous avec le pro
 
 4. Voici la représentation d'un réseau et la table de routage incompléte du routeur F obtenue avec le protocole OSPF:
 
-   ![](/IMG/ex3img2.jpg)
+   ![](/Reseaux/IMG/ex3img2.jpg)
 
 ​	Les nombres présents sur les liaisons représentent les coûts des routes avec le  			protocole OSPF.  
 
