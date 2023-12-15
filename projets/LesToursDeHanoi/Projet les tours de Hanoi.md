@@ -55,9 +55,10 @@ L'objectif de ce projet est de coder une résolution du casse-tête des tours de
 
    a. Proposer une résolution manuelle (en indiquant au joueur lorsqu'il ne déplace pas correctement un disque). 
 
-   b. Faire une jolie interface graphique en utilisant `pygame`ou `tkinter`. 
+   b. Faire une jolie interface graphique en utilisant `pygame`ou `tkinter`.
 
-   
+
+**Evidemment, vous n'oublierez ni les docstrings, ni les commentaires**
 
 
 
