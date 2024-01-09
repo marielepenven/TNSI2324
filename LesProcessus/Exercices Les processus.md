@@ -150,7 +150,7 @@ d. Parmi tous les processus affichés, citer le PID des deux qui ont consommé l
 
    Lorsqu'un processus est élu, il s'exécute au plus durant un quantum de temps. Si le processus n'a pas terminé son exécution à l'issue du quantum de temps, il réintègre la file des processus prêts (côté entrée). Un autre processus, désormais en tête de la file (côté sortie) des processus prêts, est alors à son tour élu pour une durée égale à un quantum de temps maximum. 
 
-   ![](/LesProcessus/IMG/img3ex2.jpg)
+ ![](/LesProcessus/IMG/img3ex2.jpg)
 
 ​	Reproduire le tableau ci-dessous sur la copie et indiquer dans chacune des cases le processus exécuté à chaque cycle. Le quantum correspond à une unité de temps. 
 
