@@ -44,7 +44,7 @@ Une manière simple répondre à la question consiste à lister tous les parcour
 
 Cette technique, si elle est efficace, ne peut pas être utilisée, car elle est beaucoup trop longue si le nombre de villes devient beaucoup plus important. 
 
-Pour 100 villes, il y a $100 \times  99 \times 98 \times ..\times 2 \times 1 $ possibilités, soit $100!= 9.33 \times 10^{57}$ possibilités, ce qui même pour un ordinateur, fait beaucoup de calculs à faire. 
+Pour 100 villes, il y a $100 \times  99 \times 98 \times ..\times 2 \times 1$ possibilités, soit $100!= 9.33 \times 10^{57}$ possibilités, ce qui même pour un ordinateur, fait beaucoup de calculs à faire. 
 
 Nous allons donc utiliser pour résoudre ce problème un algorithme glouton. 
 
