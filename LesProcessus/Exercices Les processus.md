@@ -154,7 +154,7 @@ d. Parmi tous les processus affichés, citer le PID des deux qui ont consommé l
 
 ​	Reproduire le tableau ci-dessous sur la copie et indiquer dans chacune des cases le processus exécuté à chaque cycle. Le quantum correspond à une unité de temps. 
 
-![](/LesProcessus/IMG/img4ex2.jpg)
+![](/LesProcessus/IMG/ex2_imgtableau.JPG)
 
 ​	b. Dans cette question, on considère que les processus sont exécutés en appliquant la politique du " plus court d'abord": les processus sont exécutés complètement dans l'ordre croissant de leurs temps d'exécution, le plus court étant exécuté en premier. 
 
