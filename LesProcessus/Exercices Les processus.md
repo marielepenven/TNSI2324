@@ -113,7 +113,7 @@ d. Ecrire la commande qui permet, à partir de cet emplacement, de supprimer le 
 
    On a exécuté la commande `ps` (avec quelques options qu'il n'est pas nécessaire de connaître pour la réussite de cet exercice). Un extrait du résultat de la commande est présenté ci-dessous:
 
-   ![](/LesProcessus/IMG/psimage2.jpg)
+   ![](/LesProcessus/IMG/img4_ex2.png)
 
    
 
