@@ -13,7 +13,7 @@ Voici le tableau des distances routières kilométriques entre ces différentes 
 |        | Nancy | Metz | Paris | Reims | Troyes |
 | ------ | ----- | ---- | ----- | ----- | ------ |
 | Nancy  |       | 55   | 303   | 188   | 183    |
-| Metz   | 55    |      | 306   | 176   | 203    |
+| Metz   | 55    |      | 306   | 173   | 203    |
 | Paris  | 303   | 306  |       | 142   | 153    |
 | Reims  | 188   | 173  | 142   |       | 123    |
 | Troyes | 183   | 203  | 153   | 123   |        |
