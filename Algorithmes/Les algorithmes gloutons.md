@@ -13,7 +13,7 @@ Voici le tableau des distances routières kilométriques entre ces différentes 
 |        | Nancy | Metz | Paris | Reims | Troyes |
 | ------ | ----- | ---- | ----- | ----- | ------ |
 | Nancy  |       | 55   | 303   | 188   | 183    |
-| Metz   | 55    |      | 306   | 176   | 203    |
+| Metz   | 55    |      | 306   | 173   | 203    |
 | Paris  | 303   | 306  |       | 142   | 153    |
 | Reims  | 188   | 173  | 142   |       | 123    |
 | Troyes | 183   | 203  | 153   | 123   |        |
@@ -72,27 +72,27 @@ Reprenons notre problème du voyageur de commerce et déterminons l'algorithme g
 
 Question 3 : Supposons que notre commercial ait à effectuer les 4 étapes prévues dans l'exemple ci-dessus. Considérons une liste contenant toutes les destinations à visiter et une table contenant les distances. 
 
-1. a. Comment choisissez vous sa première étape ? Que devez vous faire,ensuite, avec la liste des étapes à parcourir ?  
+1.  Comment choisissez vous sa première étape ? Que devez vous faire,ensuite, avec la liste des étapes à parcourir ?  
 
-1. b. Comment choisissez vous sa deuxième étape ?  
+1.  Comment choisissez vous sa deuxième étape ?  
 
-1. c. Quand cet algorithme s'arrête-t-il ?  
+1.  Quand cet algorithme s'arrête-t-il ?  
 
-1. d. En procédant ainsi, donner le parcours effectué par le commercial. Que pouvez vous dire ?  
+1. En procédant ainsi, donner le parcours effectué par le commercial. Que pouvez vous dire ?  
 
 
 
-1. Question 4 : Supposons maintenant que le commercial ait n  villes à parcourir,  
+   Supposons maintenant que le commercial ait n  villes à parcourir,  
 
 2. ​	a. écrire un algorithme glouton lui permettant d'obtenir son itinéraire en supposant qu'il veuille le 		parcours le plus court possible.
 
 ​			b. Nous souhaitons maintenant programmer cet algorithme en utilisant Python. 
 
-- 		- Comment pouvez vous représenter tableau_distance ?
+		- Comment pouvez vous représenter tableau_distance ?
 
-- -  Quelle fonction peut/doit on faire avant d'écrire la fonction principale ?  	
+     -  Quelle fonction peut/doit on faire avant d'écrire la fonction principale ?  	
 
-- - Écrire le code de cet algorithme (vous utiliserez les données de l'exemple précédent).  	
+   - Écrire le code de cet algorithme (vous utiliserez les données de l'exemple précédent).  	
 
 
 
@@ -122,4 +122,4 @@ Exercice :
 
 ​	e. À votre avis, l’algorithme glouton donne-t-il ici toujours la solution optimale ? (Vous pouvez tenter 			une justification)
 
-1. ​	
+
