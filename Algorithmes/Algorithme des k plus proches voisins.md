@@ -36,7 +36,7 @@ En 1936, Edgar Anderson a collecté des données sur trois espèces d'iris : « 
 
 ![](/Algorithmes/IMG/iris_virginica.png)
 
-![](/Algorithmes/IMG/iris_virginica.png)
+![](/Algorithmes/IMG/iris_versicolor.png)
 
 Pour chaque iris étudié, Anderson a mesuré (en cm) : 
 
