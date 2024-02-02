@@ -10,12 +10,15 @@
    - Dictionnaires
 5. Récursivité. 
 6. Processus
-7. Arbres
-8. Protocoles de routage
-9. Algorithme: Diviser pour mieux régner. 
+7. algorithmes gloutons
+8. algorithme des plus proches voisins
+9. Arbres
 10. Graphes
-11. Sécurité des communications. 
-12. Programmation fonctionnelle. 
-13. Algorithme: recherche textuelle. 
-14. Programme en tant que données. 
-15. SOC
+11. Protocoles de routage
+12. algorithmes de tris
+14. Algorithme: Diviser pour mieux régner. 
+15. Sécurité des communications. 
+16. Programmation fonctionnelle. 
+17. Algorithme: recherche textuelle. 
+18. Programme en tant que données. 
+19. SOC
