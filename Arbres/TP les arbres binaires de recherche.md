@@ -41,10 +41,13 @@ class Abr:
         si arbre est vide:
            retourner FAUX
        sinon:
+           
            si arbre.valeur> x:
                retourner recherche(sous arbre gauche, x)
-           si arbre.valeur < X:
+           si arbre.valeur < x:
                retourner recherche(sous arbre droit, x)
+           si arbre.valeur = x:
+               retourner VRAI
            
    ```
 
