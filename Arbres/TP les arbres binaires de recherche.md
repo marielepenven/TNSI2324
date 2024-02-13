@@ -43,9 +43,9 @@ class Abr:
        sinon:
            
            si arbre.valeur> x:
-               retourner recherche(sous arbre gauche, x)
+               retourner appartient(sous arbre gauche, x)
            si arbre.valeur < x:
-               retourner recherche(sous arbre droit, x)
+               retourner appartient(sous arbre droit, x)
            si arbre.valeur = x:
                retourner VRAI
            
