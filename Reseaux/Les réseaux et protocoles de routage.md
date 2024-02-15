@@ -21,8 +21,8 @@ De même, par "serveur", on fait également référence à l'ordinateur qui héb
 On utilise trois types de qualificatifs pour les réseaux. 
 
 - **LAN** (*L*ocal *A*rea *N*etwork ou Réseau Local) : réseau local permettant de relier des ordinateurs et des périphériques situés à proximité les uns des autres.
--  *** MAN**  (*Metropolitan *A*rea *N*etwork ou Réseau Métropolitain) : série de réseaux locaux permettant de relier plusieurs LAN géographiquement à proximité.
-- *** WAN** (*Wide *A*rea *N*etwork ou Réseau Etendu) : réseau étendu couvrant des vastes zones géographiques à l'échelle d'un pays ou d'un continent par exemple.
+-  **MAN**  (*Metropolitan *A*rea *N*etwork ou Réseau Métropolitain) : série de réseaux locaux permettant de relier plusieurs LAN géographiquement à proximité.
+- **WAN** (*Wide *A*rea *N*etwork ou Réseau Etendu) : réseau étendu couvrant des vastes zones géographiques à l'échelle d'un pays ou d'un continent par exemple.
 
 https://www.youtube.com/watch?v=CIhalbnBgA4)
 
