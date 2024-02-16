@@ -178,7 +178,7 @@ b. Ecrire une fonction `parcours_maladies(arb)`qui n'affiche que les feuilles de
 
 ### Exercice 6: Bac
 
-Un arbre binaire de recherche est un arbre binaire pour lequel chaque nœud possède une étiquette dont la valeur est supérieure ou égale à toutes les étiquettes des nœuds de son fils gauche et strictement inférieure à celle des nœuds de sont filles droit. 
+Un arbre binaire de recherche est un arbre binaire pour lequel chaque nœud possède une étiquette dont la valeur est supérieure ou égale à toutes les étiquettes des nœuds de son fils gauche et strictement inférieure à celle des nœuds de son fils droit. 
 
 On rappelle que:
 
