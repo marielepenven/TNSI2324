@@ -239,11 +239,11 @@ L'arbre précédent est donc équilibré.
    		RENVOYER mystere(fils_gauche(ABR,t)ou mystere(fils_droit(ABR),t))
    ```
 
-   3. Que renvoie l'appel `mystere(A2,"SIMENON")`? Justifier la réponse. 
+3. Que renvoie l'appel `mystere(A2,"SIMENON")`? Justifier la réponse. 
 
    L'éditeur souhaite utiliser une fonction récursive `hauteur(ABR)`qui prend en paramètre un arbre binaire `ABR`et renvoie la hauteur de cet arbre. 
 
-   4. Ecrire un algorithme de la fonction `hauteur(ABR)`qui prend en entrée `ABR`un arbre binaire de recherche et renvoie sa hauteur. On pourra avoir recours aux fonctions `MIN(val1,val2)`et `MAX(val1,val2)`qui renvoient respectivement la plus petite et la plus grande valeur entre `val1`et `val2`. 
+4. Ecrire un algorithme de la fonction `hauteur(ABR)`qui prend en entrée `ABR`un arbre binaire de recherche et renvoie sa hauteur. On pourra avoir recours aux fonctions `MIN(val1,val2)`et `MAX(val1,val2)`qui renvoient respectivement la plus petite et la plus grande valeur entre `val1`et `val2`. 
 
 ### Exercice 7: 
 
