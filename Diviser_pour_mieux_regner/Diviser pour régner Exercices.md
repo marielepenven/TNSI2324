@@ -4,7 +4,7 @@
 
 Une ligne polygonale est constituée d'une liste ordonnée de points, appelés sommets, joints par des segments. L'algorithme de Douglas Peuker permet de simplifier une ligne polygonale en supprimant certains de ses sommets. L'effet de l'algorithme appliqué aux lignes polygonales du contour de la France métropolitaine est illustré ci-dessous. 
 
-![](\Divier_pour_mieux_regner\IMG\ex1 diviser pour régner.jpg)
+![](\Divier_pour_mieux_regner\IMG\ex1_diviser_pour_régner.jpg)
 
 On implémentera cet algorithme dans la dernière question de l'exercice. Pour cela, nous allons d'abord implémenter des fonctions auxiliaires. 
 
