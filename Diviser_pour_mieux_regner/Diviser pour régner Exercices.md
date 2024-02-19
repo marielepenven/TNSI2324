@@ -67,17 +67,17 @@ Etant donnée une ligne polygonale, le principe de l'algorithme est le suivant:
 
   - si la distance entre le point sélectionné et la droite (ou les extrémités lorsqu'elles sont confondues) est inférieure au seuil fixé, on ne que conserve que les extrémités de la ligne polygonale;
 
-    ![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex 1 fig 2 diviser pour régner.jpg)
+    ![](/Diviser_pour_mieux_regner/IMG/ex1_fig2_diviser_pour_régner.jpg)
 
   		- sinon, on applique l'algorithme de manière récursive aux deux parties de la ligne polygonale formées de la séquence formée du premier sommet jusqu'au sommet sélectionné d'une part et de la séquence formée du sommet sélectionné jusqu'au dernier sommet d'autre part. L'algorithme renvoie alors la concaténation des séquences simplifiées ainsi obtenues. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex1 fig 3 diviser pour régner.jpg)
+![](/Diviser_pour_mieux_regner/IMG/ex1_fig3_diviser_pour_régner.jpg)
 
 ​	L'algorithme appelé sur la ligne polygonale [A,B,C,D,E,F,G] ci_dessus va récursivement être appelé sur les 	lignes polygonales [A,B,C] et [C,D,E,F,G]. 
 
 ​	La ligne polygonale que l'on obtiendra à la fin de l'algorithme sera[A,C,E,G]. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex1 fig 4 diviser pour régner.jpg)	
+![](/Diviser_pour_mieux_regner/IMG/ex1_fig4_diviser_pour_régner.jpg)	
 
 5. L'algorithme de Douglas-Peuker est implémenté par la fonction `simplifie` ci-dessous, qui prend en argument la ligne polygonale et le seuil choisi. 
 
@@ -105,7 +105,7 @@ Cet exercice traitre du calcul de la somme d'une arbre binaire. Cette somme cons
 
 L'arbre utilisé dans les parties A et B est le suivant:
 
-![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex2 fig1 divier pour régner.jpg)
+![](/Diviser_pour_mieux_regner/IMG/ex2_fig1_diviser_pour_régner.jpg)
 
 #### Partie A: Parcours d'un arbre. 
 
@@ -113,7 +113,7 @@ L'arbre utilisé dans les parties A et B est le suivant:
 
 2. Indiquer la lettre correspondante aux noms `racine`, `noeud`, `SAG`(sous arbre gauche) et `SAD`(sous arbre droit). Chaque lettre A,B, C , D et E devra être utilisée une seule fois. 
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex2 fig 2 diviser pour régner.jpg)
+   ![](/Diviser_pour_mieux_regner/IMG/ex2_fig2_diviser_pour_régner.jpg)
 
 3. Laquelle de ces quatre propositions effectue un parcours en largeur de l'arbre? 
 
@@ -164,9 +164,9 @@ L'arbre utilisé dans les parties A et B est le suivant:
 
 7. L'arbre présenté dans le probléme peut être décomposé en racine et sous arbres:
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\algorithme\ex2 fig 3 diviser pour régner.jpg)
+   ![](/Diviser_pour_mieux_regner/IMG/ex2_fig3_diviser_pour_régner.jpg)
 
-​	Indiquer dans l'esprit de 'diviser pour régner' l'égalité donnant la somme d'un arbre en fonction de la 		somme des sous arbres et de la valeur numérique de la racine. 
+​	Indiquer dans l'esprit de 'diviser pour régner' l'égalité donnant la somme d'un arbre en fonction de la 	somme des sous arbres et de la valeur numérique de la racine. 
 
 8. Ecrire en langage Python une fonction récursive `calcul_somme(arbre)`. Cette foncton calcule la somme de l'arbre passé en paramètre. 
 
