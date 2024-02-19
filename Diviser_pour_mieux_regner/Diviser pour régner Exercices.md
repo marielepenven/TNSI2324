@@ -65,11 +65,11 @@ Etant donnée une ligne polygonale, le principe de l'algorithme est le suivant:
 
 - sinon, on considère la droite formée par les extrémités de la ligne (son premier et dernier sommet), et on sélectionne le point le plus éloigné de cette droite (dans le cas où les extrémités sont confondues, on sélectionne le point le plus éloigné de celles-ci):
 
-  - si la distance entre le point sélectionné et la droite (ou les extrémités lorsqu'elles sont confondues) est inférieure au seuil fixé, on ne que conserve que les extrémités de la ligne polygonale;
+- si la distance entre le point sélectionné et la droite (ou les extrémités lorsqu'elles sont confondues) est inférieure au seuil fixé, on ne que conserve que les extrémités de la ligne polygonale;
 
     ![](/Diviser_pour_mieux_regner/IMG/ex1_fig2_diviser_pour_régner.jpg)
 
-  		- sinon, on applique l'algorithme de manière récursive aux deux parties de la ligne polygonale formées de la séquence formée du premier sommet jusqu'au sommet sélectionné d'une part et de la séquence formée du sommet sélectionné jusqu'au dernier sommet d'autre part. L'algorithme renvoie alors la concaténation des séquences simplifiées ainsi obtenues. 
+- sinon, on applique l'algorithme de manière récursive aux deux parties de la ligne polygonale formées de la séquence formée du premier sommet jusqu'au sommet sélectionné d'une part et de la séquence formée du sommet sélectionné jusqu'au dernier sommet d'autre part. L'algorithme renvoie alors la concaténation des séquences simplifiées ainsi obtenues. 
 
 ![](/Diviser_pour_mieux_regner/IMG/ex1_fig3_diviser_pour_régner.jpg)
 
