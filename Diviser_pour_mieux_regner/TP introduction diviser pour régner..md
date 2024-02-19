@@ -44,7 +44,7 @@ Prenons un exemple.
 
 Voici exécution du tri fusion sur la liste [23,12,4,56,35,32,42,57,3]
 
-![](\Diviser_pour_mieux_regner\IMG\exemple_tri_fusion)
+![](\Diviser_pour_mieux_regner\IMG\exemple_tri_fusion.jpg)
 
 1. Quelles sont les différentes étapes que vous pouvez identifier? 
 2. Effectuer le même travail sur la liste [15,13,17,3,12,8,9]. *Appeler votre enseignante*
