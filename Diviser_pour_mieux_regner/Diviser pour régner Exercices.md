@@ -51,7 +51,7 @@ Dans la suite, on dira que la fonction `distance`calcule la distance entre le po
 
    Recopier et compléter le code de cette fonction. 
 
-4. Ecrire une fonction `extrait(tab,i,j)`qui renvoie la copie du tableau `tab`des cases d'indice i inclus à j inclus pour $0\leq i \leq j len(tab) $
+4. Ecrire une fonction `extrait(tab,i,j)`qui renvoie la copie du tableau `tab`des cases d'indice i inclus à j inclus pour $0\leq i \leq j \leq len(tab) $
    
    L'appel `extrait([7,4,9,12],2,3)`renverra ainsi `[9,12]`. 
 
