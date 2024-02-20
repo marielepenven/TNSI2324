@@ -104,7 +104,7 @@ La longueur d’un chemin est définie comme le nombre *d’arcs* qui constituen
 
 Exemple 4: 
 
-- Indiquer l'ordre du sommet 3 pour le graphe 2. 
+- Indiquer le degré du sommet 3 pour le graphe 2. 
 - Quelle est la distance entre les sommets b et f dans le graphe 1? 
 
 On dit qu'un graphe non orienté est connexe si pour toute paire de sommets, il existe un chemin de u à v. 
