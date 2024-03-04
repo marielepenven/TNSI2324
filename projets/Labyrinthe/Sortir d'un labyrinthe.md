@@ -6,7 +6,7 @@ L'objectif de ce projet est de trouver un chemin pour sortir d'un labyrinthe.  C
 
 ### A. Le labyrinthe. 
 
-Un labyrinthe est généré dans un fichier texte. 
+Un labyrinthe est généré dans un fichier texte. Vous trouverez trois exemples de labyrinthe sur le git. 
 
 Les symboles # représentent les murs et les . les espaces libres. 
 
