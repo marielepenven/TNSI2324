@@ -2,7 +2,7 @@
 
 L'objectif de ce projet est de trouver un chemin pour sortir d'un labyrinthe.  Ce projet sera noté sur 10 points. 
 
-![](\Labyrinthe\labyrinthe.jpg)
+![](/labyrinthe.jpg)
 
 ### A. Le labyrinthe. 
 
