@@ -2,7 +2,7 @@
 
 L'objectif de ce projet est de trouver un chemin pour sortir d'un labyrinthe.  Ce projet sera noté sur 10 points. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\projets\labyrinthe\sortir du labyrinthe.jpg)
+![](/Labyrinthe/labyrinthe.jpg)
 
 ### A. Le labyrinthe. 
 
