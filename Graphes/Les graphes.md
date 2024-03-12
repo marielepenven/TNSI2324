@@ -222,7 +222,7 @@ ParcoursLargeur(Graphe G, Sommet s):
 	marquer(s)
 	Sommets = File() # créer une file que l'on va retourner avec les sommets visités
 	Sommets.enfiler(s)
-	tant que la file est non vide:
+	tant que la file F est non vide:
 		s = F.defiler()
 		afficher(s)
 		Pour tout voisin t de s dans G:
