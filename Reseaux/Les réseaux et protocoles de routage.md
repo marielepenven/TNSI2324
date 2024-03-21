@@ -368,7 +368,7 @@ Contrairement au protocole RIP, le nombre de routeurs traversés par un paquet n
 
 A chaque liaison, on associe donc une métrique qui dépend du débit des connexions entre les routeurs. On appelle cette métrique coût et on la définie par la formule suivante:
 
-coût=${10^{8}}/{d} $ où d représente la bande passante en bit/s entre les deux routeurs. Ainsi un lien avec une forte bande passante aura un coût très faible et sera donc privilégié par rapport à un lien avec une bande passante plus faible. 
+coût=$\frac{10^8}{d} $ où d représente la bande passante en bit/s entre les deux routeurs. Ainsi un lien avec une forte bande passante aura un coût très faible et sera donc privilégié par rapport à un lien avec une bande passante plus faible. 
 
 Exemple:
 
