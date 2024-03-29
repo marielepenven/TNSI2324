@@ -19,7 +19,7 @@ Ce simple constat nous permet de mettre en avant trois aspects liés à la sécu
 
 La **cryptographie symétrique**, également dite **à clé secrète **est la plus ancienne forme de chiffrement. Elle permet à la fois de chiffrer et de déchiffrer des messages à l'aide d'une même clé. On a des traces de son utilisation par les égyptiens vers 2000 av. J.-C.
 
-![](/securisation_des_donnees/IMG/chiffrement_symétrique.jpg)
+![](/securisation_des_donnees/IMG/chiffrementsymétrique.jpg)
 
 Le terme de symétrique vient du fait que la même clé est utilisée pour chiffrer et déchiffrer le message. 
 
