@@ -8,7 +8,7 @@
 
 ### II. Le Chiffre de Vigenère. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\vigenere.jpg)
+![](/securisation_des_donnees/IMG/vigenere.jpg)
 
 1. en utilisant la table de Vigenère ci-dessus, chiffrer le message suivant "DEMAIN, TOUT IRA BIEN", avec la clé "CIEL". 
 2. en utilisant la table de Vigenère ci-dessus, déchiffrer le message suivant "ZT IFK BIZGA H NCTIE JM GBLKLRI", avec la clé "RIEN".
