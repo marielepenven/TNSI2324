@@ -1,6 +1,5 @@
 # Sécurisation des données
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\programme.jpg)
 
 Avec la démocratisation d'internet, du web et la diversification des usages, des problèmes de sécurisation sont apparus. 
 
@@ -20,7 +19,7 @@ Ce simple constat nous permet de mettre en avant trois aspects liés à la sécu
 
 La **cryptographie symétrique**, également dite **à clé secrète **est la plus ancienne forme de chiffrement. Elle permet à la fois de chiffrer et de déchiffrer des messages à l'aide d'une même clé. On a des traces de son utilisation par les égyptiens vers 2000 av. J.-C.
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\chiffrement symétrique.jpg)
+![](/securisation_des_donnees/IMG/chiffrement_symétrique.jpg)
 
 Le terme de symétrique vient du fait que la même clé est utilisée pour chiffrer et déchiffrer le message. 
 
@@ -32,7 +31,7 @@ Le texte chiffré s'obtient en remplaçant chaque lettre du texte clair original
 
 Par exemple avec un décalage de 3 vers la droite, `A` est remplacé par `D`, `B` devient `E`, et ainsi jusqu'à `W` qui devient `Z`, puis `X` devient `A` etc. Il s'agit d'une permutation circulaire de l'alphabet. La longueur du décalage, 3 dans l'exemple évoqué, constitue la *clé* du chiffrement qu'il suffit de transmettre au destinataire — s'il sait déjà qu'il s'agit d'un chiffrement de César — pour que celui-ci puisse déchiffrer le message. Dans le cas de l'alphabet latin, le chiffre de César n'a que 26 clés possibles (y compris la clé nulle, qui ne modifie pas le texte).
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\cesar.jpg)
+![](/securisation_des_donnees/IMG/cesar.jpg)
 
 
 
@@ -46,7 +45,7 @@ Cette méthode de chiffrement est utilisable grâce à la table de Vigenère qui
 
 Il a été découvert par le major prussien Friedrich Kasiski qui publie sa méthode en 1863.
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\vigenere.jpg)
+![](/securisation_des_donnees/IMG/vigenere.jpg)
 
 Pour utiliser le chiffre de Vigenère, il faut avoir en sa possession : la table de Vigenère (représentée ci-dessus), une phrase à modifier pour lui donner un sens incompréhensible et un mot clé :
 
@@ -87,7 +86,7 @@ Ce système a deux utilisations majeures :
 - la  confidentialité des messages reçus : c'est celle qu'on vient de décrire, l'expéditeur utilise la clé publique du destinataire pour chiffrer son message. Le destinataire utilise sa clé privée pour déchiffrer le message de l'expéditeur, garantissant la confidentialité du contenu ;
 - l'authentification de l'expéditeur d'un message (pas nécessairement confidentiel) : l'expéditeur utilise sa clé privée pour chiffrer un message que n'importe qui peut déchiffrer avec la clé publique de l'expéditeur, ce qui garantit que le message a été chiffré par l'expéditeur, seul à posséder la clé privée ; c'est le mécanisme utilisé par la signature numérique pour authentifier l'auteur d'un message. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\Chiffrement_asymétrique.png)
+![](/securisation_des_donnees/IMG/Chiffrement_asymétrique.png)
 
 ### b. RSA. 
 
@@ -103,7 +102,7 @@ Le chiffrement RSA est *asymétrique* : il utilise une paire de clés (des nombr
 
 Une condition indispensable est qu'il soit « calculatoirement impossible » de déchiffrer à l'aide de la seule clé publique, en particulier de reconstituer la clé privée à partir de la clé publique, c'est-à-dire que les moyens de calcul disponibles et les méthodes connues au moment de l'échange (et le temps que le secret doit être conservé) ne le permettent pas.
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\rsa alice bob.jpg)
+![](/securisation_des_donnees/IMG/rsaalicebob.jpg)
 
 Si vous faites Maths expertes, vous pouvez vous pencher sur le cryptage RSA (ce qui fait un bon sujet de grand oral) !
 
@@ -117,7 +116,7 @@ Nous avons vu que, lorsqu'une entité (entreprise, association, individu, servic
 
 Toutefois, des difficultés demeurent. En effet, un problème vient de la transmission de la clé publique. Si celle-ci n'est pas sécurisée, un attaquant peut se positionner entre l'entité et son public en diffusant de fausses clés publiques (par le biais d'un faux site web par exemple) puis intercepter toutes les communications, lui permettant d'usurper l'identité du diffuseur de clés publique et de créer une attaque de l'homme du milieu (ou de la femme parce qu'il n'y pas de raison ). 
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\attaque homme du milieu.jpg)
+![](/securisation_des_donnees/IMG/attaquehommedumilieu.jpg)
 
 Dans un cadre fermé et relativement restreint (entreprise, service public…) la diffusion de clés sécurisées est relativement simple et peut prendre de nombreuses formes, mais quand le diffuseur souhaite s'adresser à un public plus large avec lequel il n'a pas eu de contact préalable (grand public, public international), elle nécessite un cadre normalisé.
 
@@ -131,7 +130,7 @@ Un **certificat électronique** est un ensemble de données contenant :
 
 Les certificats électroniques et leur cycle de vie peuvent être gérés au sein d'infrastructures à clés publiques. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\certificat electronique.jpg)
+![](securisation_des_donnees/IMG/certificatelectronique.jpg)
 
 ## IV. Le protocole HTTPS
 
@@ -150,4 +149,4 @@ Décrivons le protocole HTTPS en considérant un échange entre un client et un 
 - Le serveur reçoit donc la clé symétrique en toute sécurité. C'est la fin de la phase de "poignée de main" entre client et serveur. 
 - Client et serveur peuvent maintenant s'échanger des données cryptées en utilisant la clé de session qu'ils sont les seuls à connaître. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\sécurisation des données\protocole https.jpg)
+![](/securisation_des_donnees/IMG/protocolehttps.jpg)
