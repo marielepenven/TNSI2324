@@ -2,7 +2,7 @@
 
 L'objectif de ce TP est de pivoter d'un quart de tour une image carré dans le sens inverse des aiguilles d'une montre. 
 
-| ![](D:\DISQUE ESSB\lycee\T NSI\algorithme\FichiersJoints\Rotation\Tux128.png) | ![](D:\DISQUE ESSB\lycee\T NSI\algorithme\FichiersJoints\Rotation\Tux128_pivoté.png) |
+| ![](/Diviser_pour_mieux_regner/IMG/Tux128.png) | ![](/Diviser_pour_mieux_regner/IMG/Tux128_pivoté.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Nous utiliserons pour cela la bibliothèque PIL dont vous trouverez la documentation en ligne [ici](https://he-arc.github.io/livre-python/pillow/index.html)
