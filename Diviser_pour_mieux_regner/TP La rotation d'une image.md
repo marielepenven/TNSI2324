@@ -42,11 +42,11 @@ On procède alors par étapes:
 2. Régner: On effectue une rotation récursive de chacun des quadrants. 
 3. Combiner: On applique une permutation circulaire des quadrants. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\algorithme\photo1.jpg)
+![](/Diviser_pour_mieux_regner/IMG/photo1.jpg)
 
 Voyons ce que cela donne avec une image élèmentaire de $8 \times 8$ pixels:
 
-![](D:\DISQUE ESSB\lycee\T NSI\algorithme\photo2.jpg) 
+![](/Diviser_pour_mieux_regner/IMG/photo2.jpg) 
 
 1. Compléter le script `rotation_e.py`afin qu'il effectue la rotation d'une image en utilisant la méthode diviser pour régner. 
 
