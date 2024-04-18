@@ -130,7 +130,7 @@ Un **certificat électronique** est un ensemble de données contenant :
 
 Les certificats électroniques et leur cycle de vie peuvent être gérés au sein d'infrastructures à clés publiques. 
 
-![](securisation_des_donnees/IMG/certificatelectronique.jpg)
+![](/securisation_des_donnees/IMG/certificatelectronique.jpg)
 
 ## IV. Le protocole HTTPS
 
