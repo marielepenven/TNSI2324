@@ -1,0 +1,88 @@
+# Recherche Textuelle.
+
+
+
+La recherche textuelle est la recherche d'un motif (ou d'une sous-chaine) dans un texte. Nous l'utilisons lorsque nous nous servons  de "Ctrl+f" afin de retrouver un mot dans une page. 
+
+#### Bioinformatique. 
+
+Comme son nom l'indique, la Bioinformatique est issue de la rencontre de l'informatique et de la biologie : la récolte des données en biologie a connu une très forte augmentation ces 30 dernières années. Pour analyser cette grande quantité de données de manière efficace, les scientifiques ont de plus en plus recourt au traitement automatique de l'information, c'est-à-dire à l'informatique.
+
+En particulier, la recherche textuelle est utilisée lors de l'analyse de l'ADN. 
+
+L'information génétique présente dans nos cellules est portée par les molécules d'ADN. Les molécules d'ADN sont, entre autres, composées de bases azotées ayant pour noms : Adénine (représenté par un A), Thymine (représenté par un T), Guanine (représenté par un G) et Cytosine (représenté par un C).
+
+![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\adn.jpg)
+
+L'information génétique est donc très souvent représentée par de très longues chaines de caractères, composées des caractères A, T, G et C. Exemple : CTATTCAGCAGTC...
+
+Il est souvent nécessaire de détecter la présence de certains enchainements de bases azotées (dans la plupart des cas un triplet de bases azotées code pour 1 acide aminé et la combinaison d'acides aminés forme une protéine). 
+
+Ainsi, nous pourrions nous demander, par exemple, si on trouve le triplet ACG dans le brin d'ADN suivant et si c'est le cas, à quelle position ? 
+
+```
+CAAGCGCACAAGACGCGGCAGACCTTCGTTATAGGCGATGATTTCGAACCTACTAGTGGGTCTCTTAGGCCGAGCGGTTCCGAGAGATAGTGAAAGATGGCTGGGCTGTGAAGGGAAGGAGTCGTGAAAGCGCGAACACGAGTGTGCGCAAGCGCAGCGCCTTAGTATGCTCCAGTGTAGAAGCTCCGGCGTCCCGTCTAACCGTACGCTGTCCCCGGTACATGGAGCTAATAGGCTTTACTGCCCAATATGACCCCGCGCCGCGACAAAACAATAACAGTTTGCTGTATGTTCCATGGTGGCCAATCCGTCTCTTTTCGACAGCACGGCCAATTCTCCTAGGAAGCCAGCTCAATTTCAACGAAGTCGGCTGTTGAACAGCGAGGTATGGCGTCGGTGGCTCTATTAGTGGTGAGCGAATTGAAATTCGGTGGCCTTACTTGTACCACAGCGATCCCTTCCCACCATTCTTATGCGTCGTCTGTTACCTGGCTTGGCAT
+```
+
+## I. Algorithme naïf. 
+
+Nous allons commencer par un premier algorithme. 
+
+Il s'agit de parcourir le texte de gauche à droite, de caractère en caractère. 
+
+Pour chaque position, 
+
+​	si le premier caractère correspond, 
+
+​	alors, il regarde le suivant
+
+​	Si tous les caractères du motif sont trouvés, 
+
+​	alors le motif a été trouvé, 
+
+​	sinon, il passe au caractère suivant. 
+
+
+
+Prenons un exemple: nous recherchons la chaine ACG. 
+
+![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\recherche_motif.jpg)
+
+Exercice : En utilisant le fichier TP.py, 
+
+1. programmer la fonction recherche_naïve_1 qui prend en paramètre la chaine de caractères et le motif, et qui renvoie True dés que le motif a été trouvé dans la chaine de caractères et False si celui-ci n'a pas été trouvé. 
+2. programmer la fonction recherche_naïve_2 qui prend en paramètre la chaine de caractères et le motif, et qui renvoie une liste contenant les positions à partir desquelles on peut trouver le motif.
+
+
+
+## II. Algorithme de Boyer-Moore. 
+
+L'algorithme de Boyer-Moore se base sur les caractéristiques suivantes :
+
+- l'algorithme effectue un **prétraitement du motif**. Cela signifie que l'algorithme "connait" les caractères qui se trouvent dans le motif
+- on commence la comparaison motif-chaine par la droite du motif. Par exemple pour le motif CGGCAG, on compare d'abord le G, puis le A, puis C...on parcourt le motif de la **droite vers la gauche**
+- dans la méthode naïve, les décalages du motif vers la droite se faisaient toujours d'un "cran" à la fois. L'intérêt de l'algorithme de Boyer-Moore, c'est qu'il permet, dans certaines situations, d'effectuer un **décalage de plusieurs crans** en une seule fois.
+
+Examinons un exemple. Soit la chaine suivante :
+
+```
+CAATGTCTGCACCAAGACGCCGGCAGGTGCAGACCTTCGTTATAGGCGATGATTTCGAACCTACTAGTGGGTCTCTTAGGCCGAGCGGTTCCGAGAGATAGTGAAAGATGGCTGGGCTGTGAAGGGAAGGAGTCGTGAAAGCGCGAACACGAGTGTGCGCAAGCGCAGCGCCTTAGTATGCTCCAGTGTAGAAGCTCCGGCGTCCCGTCTAACCGTACGCTGTCCCCGGTACATGGAGCTAATAGGCTTTACTGCCCAATATGACCCCGCGCCGCGACAAAACAATAACAGTTT
+```
+
+et le motif : **CGGCAG**
+
+![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\decalage.jpg)
+
+1. on commence la comparaison par la droite, G et T ne correspondent pas. Le prétraitement du motif nous permet de savoir qu'il n'y a pas de T dans ce dernier, on peut décaler le motif de 6 crans vers la droite.
+2. G et C ne correspondent pas, en revanche, on trouve 2 C dans le motif. On effectue un décalage du motif de 2 crans vers la droite afin de faire correspondre le C de la chaine (encadré sur le schéma) et le C le plus à droite dans le motif.
+3. G et A ne correspondent pas, il existe un A dans le motif, on effectue un décalage d'un cran.
+4. G et A ne correspondent pas, il existe un A dans le motif, on effectue un décalage d'un cran.
+5. G et G correspondent, A et A correspondent, mais C et A ne correspondent pas. À gauche du C, il n'y a plus de A, on peut donc effectuer un décalage de 4 crans.
+6. G et C ne correspondent pas, on effectue un décalage de deux crans pour faire correspondre les C.
+7. G et G correspondent, A et C ne correspondent pas, on effectue un décalage d'un cran
+8. G et G correspondent, A et G ne correspondent pas, on effectue un décalage de 2 crans (faire correspondre les G)
+9. G et A ne correspondent pas, on effectue un décalage d'un cran
+10. toutes les lettres correspondent, on a trouvé le motif dans la chaine.
+
+On peut remarquer que l'on a bien, en fonction des cas, effectué plusieurs décalages en un coup, ce qui, au bout du compte, permet de faire moins de comparaison que l'algorithme naïf. On peut aussi remarquer que plus le motif est grand et plus l'algorithme de Boyer-Moore sera efficace.
+
