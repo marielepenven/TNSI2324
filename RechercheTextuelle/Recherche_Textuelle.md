@@ -12,7 +12,7 @@ En particulier, la recherche textuelle est utilisée lors de l'analyse de l'ADN.
 
 L'information génétique présente dans nos cellules est portée par les molécules d'ADN. Les molécules d'ADN sont, entre autres, composées de bases azotées ayant pour noms : Adénine (représenté par un A), Thymine (représenté par un T), Guanine (représenté par un G) et Cytosine (représenté par un C).
 
-![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\adn.jpg)
+![](/RechercheTextuelle/IMG/adn.jpg)
 
 L'information génétique est donc très souvent représentée par de très longues chaines de caractères, composées des caractères A, T, G et C. Exemple : CTATTCAGCAGTC...
 
@@ -46,7 +46,7 @@ Pour chaque position,
 
 Prenons un exemple: nous recherchons la chaine ACG. 
 
-![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\recherche_motif.jpg)
+![](/RechercheTextuelle/IMG/recherche_motif.jpg)
 
 Exercice : En utilisant le fichier TP.py, 
 
@@ -71,7 +71,7 @@ CAATGTCTGCACCAAGACGCCGGCAGGTGCAGACCTTCGTTATAGGCGATGATTTCGAACCTACTAGTGGGTCTCTTAGG
 
 et le motif : **CGGCAG**
 
-![](D:\DISQUE ESSB\lycee\T NSI\Recherche textuelle\decalage.jpg)
+![](/RechercheTextuelle/IMG/decalage.jpg)
 
 1. on commence la comparaison par la droite, G et T ne correspondent pas. Le prétraitement du motif nous permet de savoir qu'il n'y a pas de T dans ce dernier, on peut décaler le motif de 6 crans vers la droite.
 2. G et C ne correspondent pas, en revanche, on trouve 2 C dans le motif. On effectue un décalage du motif de 2 crans vers la droite afin de faire correspondre le C de la chaine (encadré sur le schéma) et le C le plus à droite dans le motif.
