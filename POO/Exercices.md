@@ -6,7 +6,7 @@ Considérons le plan muni d'un repère orthonormé, chaque point est repéré pa
 
 Nous allons implémenter un point de trois manières différentes. Pour cela, nous utiliserons 
 
-Implémenter le type abstrait Point de trois façons différentes :
+1. Implémenter le type abstrait Point de trois façons différentes :
 
 - par un tuple
 
