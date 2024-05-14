@@ -15,7 +15,7 @@ On peut distinguer deux grands types de langages : les langages *interprétés* 
 
 Dans ces langages, le code source (celui que vous écrivez) est interprété, par un logiciel qu'on appelle *interpréteur*. Celui-ci va utiliser le code source et les données d'entrée pour calculer les données de sortie :
 
-![](D:\DISQUE ESSB\lycee\T NSI\calculabilité décidabilité\langage_interprete.png)
+![](/calculabilite_decidabilite/IMG/langage_interprete.png)
 
 L'interprétation du code source est un processus « pas à pas » : l'interpréteur va exécuter les lignes du code une par une, en décidant à chaque étape ce qu'il va faire ensuite.
 
@@ -23,7 +23,7 @@ L'interprétation du code source est un processus « pas à pas » : l'interpré
 
 Dans ces langages, le code source (celui que vous écrivez) est tout d'abord compilé, par un logiciel qu'on appelle *compilateur*, en un *code binaire* qu'un humain ne peut pas lire mais qui est très facile à lire pour un ordinateur. C'est alors directement le système d'exploitation qui va utiliser le code binaire et les données d'entrée pour calculer les données de sortie :
 
-![](D:\DISQUE ESSB\lycee\T NSI\calculabilité décidabilité\langage_compile.png)
+![](/calculabilite_decidabilite/IMG/langage_compile.png)
 
 ### c. Les différences. 
 
