@@ -32,7 +32,7 @@ Trouvez pour votre smartphone les informations suivantes concernant le SoC utili
 
 Comparez vos valeurs avec celles de vos camarades de classe.
 
-Exercice 4: Jusqu'à une certaine finesse de gravue, il est possible de modéliser la consommation d'une puce à transistors comme étant principalement due aux charges et décharge de condensateurs, l'énergie étant dissipée dans des résistances. La consommation peut s'écrire  $ P = C \times V² \times F$  avec V la tension d'alimentation et F la fréquence de la puce. La constante C est homogène avec une capacité de condensateur mais se trouve être une caractéristique du processeur qui peut être mesurée expérimentalement. 
+Exercice 4: Jusqu'à une certaine finesse de gravue, il est possible de modéliser la consommation d'une puce à transistors comme étant principalement due aux charges et décharge de condensateurs, l'énergie étant dissipée dans des résistances. La consommation peut s'écrire  $P = C \times V² \times F$  avec V la tension d'alimentation et F la fréquence de la puce. La constante C est homogène avec une capacité de condensateur mais se trouve être une caractéristique du processeur qui peut être mesurée expérimentalement. 
 
 1. a. Pour le téléphone Nokia 3310, l'expression $C \times V² $ vaut 0.19 mW/Mhz et pour le premier iphone la même expression vaut 0.4mW/mhz. En supposant une tension de fonctionnement de 2.8 V pour la puce du Nokia et une tension de 1.2V pour la puce de l'Iphone, trouver les constantes C pour les deux puces. 
 
