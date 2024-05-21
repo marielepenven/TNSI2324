@@ -38,7 +38,7 @@ Source : Wikipédia, article “Routeur”
 
 Le réseau N1 est maintenant relié à d’autres réseaux locaux (N2, N3, N4) par  l’intermédiaire d’une série de routeurs (R1, R2, R3, R4, R5, R6) :
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex1_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex1_revisions_2024.jpg)
 
 5. Attribuer une adresse IP valide à l’interface eth0 du routeur R1 sachant que l’adresse réseau du réseau N1 est 192.168.1.0.
 
@@ -153,7 +153,7 @@ Extrait table de routage du routeur R3.
 
  Dans la suite de l’exercice, on ne tiendra plus compte de la distance entre les  différentes villes et le graphe, non pondéré et représenté ci-dessous, sera utilisé :
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex2_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex2_revisions_2024.jpg)
 
  Chaque sommet est une ville, chaque arête est une route qui relie deux villes.
 
@@ -316,7 +316,7 @@ Le sol pourra donc être représenté par une pyramide d’entiers où chaque en
 
  Un conduit doit partir du sommet de la pyramide et descendre jusqu’au niveau le plus  bas, où se situe l’eau, en suivant des déplacements élémentaires, c’est-à-dire en  choisissant à chaque niveau de descendre sur la gauche ou sur la droite. Le score  de confiance d’un conduit est la somme des nombres rencontrés le long de ce  conduit. Le conduit gris représenté à droite sur la figure 1 a pour score de confiance  4+2+5+1+3=15.
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex3_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex3_revisions_2024.jpg)
 
 On va utiliser un ordinateur pour chercher à résoudre ce problème. Pour cela, on  représente chaque niveau par la liste des nombres de ce niveau et une pyramide par  une liste de niveaux.
 
@@ -334,7 +334,7 @@ On souhaite déterminer le score de confiance maximal pouvant être atteint pour
 
 3. Énumérer les conduits dans la pyramide de trois niveaux représentée sur la  figure 2.
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex3_2_revisions_2024.jpg)
+   ![](/RevisionsBac/IMG/ex3_2_revisions_2024.jpg)
 
  Afin de compter le nombre de conduits pour une pyramide de `n` niveaux, on  remarque qu’un conduit est uniquement représenté par une séquence de `n`  déplacements `gauche` ou `droite`.
 
@@ -343,7 +343,7 @@ On souhaite déterminer le score de confiance maximal pouvant être atteint pour
 
  On dira dans la suite qu’un conduit est maximal si son score de confiance est  maximal. Afin de pouvoir calculer efficacement le score maximal, on peut analyser la  structure des conduits maximaux.
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex3__3_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex3__3_revisions_2024.jpg)
 
 - Première observation : si on a des conduits maximaux `cm1` et `cm2`  (représentés en gris dans la figure 3) pour les deux pyramides obtenues en  enlevant le sommet de `ex1`, on obtient un conduit maximal en ajoutant le  sommet 4 devant le conduit de plus grand score parmi `cm1` et `cm2`. Ici le score  de `cm1` est 6+5+6+5=22 et le score de `cm2` est 2+7+6+5=20 donc le conduit  maximal dans `ex1` est celui obtenu à partir de `cm1` et dessiné à droite dans la  figure 3.
 - Deuxième observation : si la pyramide n’a qu’un seul niveau, il n’y a que le  sommet, dans ce cas, il n’y a pas de choix à faire, le seul conduit possible est  celui qui contient le sommet et le nombre de ce sommet est le score maximal  que l’on peut obtenir.
@@ -399,7 +399,7 @@ Source : Wikipédia, extrait de l’article consacré à GNU/Linux.
 
  On donne ci-dessous une arborescence de fichiers sur un système GNU/Linux (les  noms encadrés représentent des répertoires, les noms non encadrés représentent  des fichiers, / correspond à la racine du système de fichiers) :
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex4_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex4_revisions_2024.jpg)
 
 3. Indiquer le chemin absolu du fichier `rapport.odt`. 
 
@@ -428,7 +428,7 @@ Dans la suite de l’exercice, on s’intéresse aux processus. On considère qu
 
 6. Recopier et compléter le schéma ci-dessous avec les termes suivants : élu, bloqué, prêt, élection, blocage, déblocage.
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex4_2_revisions_2024.jpg)
+   ![](/RevisionsBac/IMG/ex4_2_revisions_2024.jpg)
 
 7. Donner l’exemple d’une situation qui contraint un processus à passer de l’état  élu à l’état bloqué. 
 
@@ -442,7 +442,7 @@ Dans la suite de l’exercice, on s’intéresse aux processus. On considère qu
 
  Par exemple, l’exécution d’un processus P4 qui a un instant d’arrivée égal à 7 et une  durée d’exécution égale à 2 peut être représentée par le schéma suivant :
 
-![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex4__3_revisions_2024.jpg)
+![](/RevisionsBac/IMG/ex4__3_revisions_2024.jpg)
 
  L’ordonnanceur place les processus qui ont besoin d’un accès au processeur dans  une file, en respectant leur ordre d’arrivée (le premier arrivé étant placé en tête de  file). Dès qu’un processus a terminé son exécution, l’ordonnanceur donne l’accès au  processus suivant dans la file.
 
@@ -458,7 +458,7 @@ Dans la suite de l’exercice, on s’intéresse aux processus. On considère qu
 
 9. Recopier et compléter le schéma ci-dessous avec les processus P1 à P5 en  utilisant les informations présentes dans le tableau ci-dessus et l’algorithme  d’ordonnancement “par ordre de soumission”.
 
-   ![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex4_4_revisions_2024.jpg)
+   ![](/RevisionsBac/IMG/ex4_4_revisions_2024.jpg)
 
     On utilise maintenant un autre algorithme d’ordonnancement : l’algorithme  d’ordonnancement “par tourniquet”. Dans cet algorithme, la durée d’exécution d’un  processus ne peut pas dépasser une durée Q appelée quantum et fixée à l’avance.  Si ce processus a besoin de plus de temps pour terminer son exécution, il doit  retourner dans la file et attendre son tour pour poursuivre son exécution.
 
@@ -466,7 +466,7 @@ Dans la suite de l’exercice, on s’intéresse aux processus. On considère qu
 
    10. Recopier et compléter le schéma ci-dessous, en utilisant l’algorithme  d’ordonnancement “par tourniquet” et les mêmes données que pour la  question 9, en supposant que le quantum Q est fixé 2.
 
-       ![](D:\DISQUE ESSB\lycee\T NSI\sujets bac\ex4_5_revisions_2024.jpg)
+       ![](/RevisionsBac/IMG/ex4_5_revisions_2024.jpg)
 
 ​	On considère deux processus P1 et P2, et deux ressources R1 et R2.
 
