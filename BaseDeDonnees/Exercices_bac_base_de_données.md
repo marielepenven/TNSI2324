@@ -107,7 +107,7 @@ Voici des extraits des trois tables `marque`, `modele`, `guitare`.
 
 Maud vient d’apprendre que Slash a fait cadeau d’une de ses guitares à un ami. Elle doit donc la retirer de sa base de données.
 
-6. Écrire une requête SQL permettant de retirer de la collection la guitare d’identifiant `id=3`.
+8. Écrire une requête SQL permettant de retirer de la collection la guitare d’identifiant `id=3`.
 
 Slash a aussi acheté une guitare d’une marque qu’il n’avait pas encore dans sa collection. Maud décide de la rajouter.
 
